@@ -1,0 +1,27 @@
+{
+    "name": "Sepia",
+    "displayName": "Sepia",
+    "description": "Your eyes will thank you.",
+    "version": "0.0.1",
+    "publisher": "ZYinMD",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sepia",
+                "uiTheme": "vs",
+                "path": "./themes/sepia.json"
+            },
+            {
+                "label": "Sepia from Cuttlefish",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sepia-from-cuttlefish.json"
+            }
+        ]
+    }
+}
