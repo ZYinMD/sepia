@@ -25,5 +25,8 @@
                 "path": "./themes/sepia-from-cuttlefish.json"
             }
         ]
+    },
+    "devDependencies": {
+        "auto-changelog": "^1.10.2"
     }
 }
