@@ -1,9 +1,10 @@
 {
     "name": "Sepia",
-    "displayName": "Sepia",
+    "displayName": "Sepia Theme",
     "description": "Your eyes will thank you.",
     "version": "0.0.1",
     "publisher": "ZYinMD",
+    "repository": "https://github.com/ZYinMD/sepia",
     "engines": {
         "vscode": "^1.29.0"
     },
