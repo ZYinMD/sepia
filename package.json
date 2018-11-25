@@ -28,5 +28,8 @@
     },
     "devDependencies": {
         "auto-changelog": "^1.10.2"
+    },
+    "scripts": {
+        "patch": "vsce patch && git push && node_modules/.bin/auto-changelog -p"
     }
 }
