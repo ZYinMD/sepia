@@ -1,5 +1,5 @@
 {
-    "name": "Sepia",
+    "name": "sepia",
     "displayName": "Sepia Theme",
     "description": "Your eyes will thank you.",
     "version": "0.0.4",
@@ -12,6 +12,14 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "parchment",
+        "vintage",
+        "solarized",
+        "yellow",
+        "brown"
+
+	],
     "contributes": {
         "themes": [
             {
@@ -30,6 +38,6 @@
         "auto-changelog": "^1.10.2"
     },
     "scripts": {
-        "patch": "vsce publish patch && git push && ./node_modules/.bin/auto-changelog -p"
+        "patch": "git push && vsce publish patch && 'node_modules/.bin/auto-changelog -p'"
     }
 }
