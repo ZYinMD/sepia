@@ -37,6 +37,6 @@
         "auto-changelog": "^1.10.2"
     },
     "scripts": {
-        "patch": "git push && vsce publish patch && 'node_modules/.bin/auto-changelog -p'"
+        "patch": "vsce publish patch && ./node_modules/.bin/auto-changelog -p"
     }
 }
