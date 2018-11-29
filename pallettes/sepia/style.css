@@ -1,0 +1,72 @@
+
+.default {
+	color: #0009;
+	color: #222b;
+	color: #333b;
+	color: #334b;
+	color: #323a;
+	color: #313a;
+}
+
+.grey {
+	color: #999d;
+}
+
+.red {
+	color: #f00;
+}
+
+.cyan {
+	color: #24a197;
+	color: #099e;
+
+}
+
+.orange {
+	color: rgba(247, 123, 0, 0.9);
+	/* color: rgba(247, 123, 0); */
+}
+
+.olive {
+	color: #890;
+}
+
+.maroon {
+	color: #c10c;
+}
+
+
+.yellow {
+	color: #b82;
+}
+
+.blue {
+	color: #18cd;
+}
+
+.magenta {
+	color: #b36e;
+}
+
+.green {
+	color: #094e;
+}
+body {
+	padding-top: 30px;
+	background-color: #fec;
+	font-family: Consolas, monospace;
+	font-size: 21px;
+	max-width: 1080px;
+	margin: auto;
+}
+
+section {
+	margin-top: 50px;
+}
+.colors .color-names {
+	margin-top: 30px;
+}
+
+.colors p {
+	margin-top: 10px;
+}
