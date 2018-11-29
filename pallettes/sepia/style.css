@@ -5,7 +5,9 @@
 	color: #333b;
 	color: #334b;
 	color: #323a;
-	color: #313a;
+	color: #102a;
+	color: #323a;
+	color: #836e69;
 }
 
 .grey {
@@ -23,8 +25,7 @@
 }
 
 .orange {
-	color: rgba(247, 123, 0, 0.9);
-	/* color: rgba(247, 123, 0); */
+	color: #f77b00e6;
 }
 
 .olive {
@@ -40,16 +41,40 @@
 	color: #b82;
 }
 
+.teal {
+	color: #088;
+}
+
+.purple {
+	color: #990099a5;
+	color: #940094ab;
+}
+
+.tan {
+	color: #974c;
+	color: #963c;
+	color: #97733dd0;
+}
+
 .blue {
-	color: #18cd;
+	color: #08bc;
 }
 
 .magenta {
 	color: #b36e;
+	color: #bb3366d6;
+	color: #b36d;
 }
 
 .green {
 	color: #094e;
+
+
+}
+
+.black {
+	color: #000;
+
 }
 body {
 	padding-top: 30px;
