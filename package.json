@@ -33,9 +33,6 @@
             }
         ]
     },
-    "devDependencies": {
-        "auto-changelog": "^1.10.2"
-    },
     "scripts": {
         "patch": "vsce publish patch && auto-changelog -p"
     }
