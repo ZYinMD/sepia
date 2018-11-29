@@ -24,12 +24,12 @@
             {
                 "label": "Sepia",
                 "uiTheme": "vs",
-                "path": "./themes/sepia.json"
+                "path": "./themes/sepia/sepia.json"
             },
             {
                 "label": "Sepia from Cuttlefish",
                 "uiTheme": "vs-dark",
-                "path": "./themes/sepia-from-cuttlefish.json"
+                "path": "./themes/sepia-from-cuttlefish/sepia-from-cuttlefish.json"
             }
         ]
     },
@@ -37,6 +37,6 @@
         "auto-changelog": "^1.10.2"
     },
     "scripts": {
-        "patch": "vsce publish patch && ./node_modules/.bin/auto-changelog -p"
+        "patch": "vsce publish patch && auto-changelog -p"
     }
 }
