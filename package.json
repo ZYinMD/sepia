@@ -34,6 +34,7 @@
         ]
     },
     "scripts": {
-        "patch": "vsce publish patch && auto-changelog -p"
+        "patch": "vsce publish patch",
+        "postpatch": "auto-changelog -p && git add CHANGELOG.md && git commit --amend --no-edit"
     }
 }

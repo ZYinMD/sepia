@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Comment",
+		"scope": [
+			"comment",
+			"meta.documentation"
+		],
+		"settings": {
+			"foreground": "grey"
+		}
+	}
+]
