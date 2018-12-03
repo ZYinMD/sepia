@@ -39,6 +39,7 @@
         "vscode:prepublish": "auto-changelog -p && git add CHANGELOG.md && git commit --amend --no-edit"
     },
     "devDependencies": {
+        "auto-changelog": "^1.10.2",
         "comment-json": "^1.1.3"
     }
 }
