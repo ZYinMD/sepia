@@ -8,5 +8,12 @@
 		"settings": {
 			"foreground": "grey"
 		}
+	},
+	{
+		"name": "String",
+		"scope": "string",
+		"settings": {
+			"foreground": "olive"
+		}
 	}
 ]

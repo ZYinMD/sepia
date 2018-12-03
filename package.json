@@ -34,7 +34,11 @@
         ]
     },
     "scripts": {
-        "patch": "vsce publish patch",
-        "postpatch": "auto-changelog -p && git add CHANGELOG.md && git commit --amend --no-edit"
+        "tweak": "node ./scripts/tweak.js",
+        "postversion": "vsce pubilsh",
+        "vscode:prepublish": "auto-changelog -p && git add CHANGELOG.md && git commit --amend --no-edit"
+    },
+    "devDependencies": {
+        "comment-json": "^1.1.3"
     }
 }

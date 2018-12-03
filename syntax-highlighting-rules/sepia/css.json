@@ -1,0 +1,16 @@
+[
+	{
+		"name": "CSS .class",
+		"scope": "entity.other.attribute-name.class",
+		"settings": {
+			"foreground": "green"
+		}
+	},
+	{
+		"name": "CSS: #id",
+		"scope": "entity.other.attribute-name.id",
+		"settings": {
+			"foreground": "purple"
+		}
+	}
+]
