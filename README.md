@@ -2,8 +2,9 @@
 
 ## 1 light + 1 dark theme.
 
-## This theme is very new, still being polished, should finish before 2018-12-01. Expect frequent updates these days.
+## This theme is very new, still being worked on.
 
-Currently working on:
-1. Terminal colors
-2. Syntax highlighting colors
+Expectant updates:
+- Before 2018-12-07: better syntax highlighting colors (light theme)
+- Before 2018-12-10: better terminal colors (light theme)
+- Before 2018-12-15: Same things for the dark theme
