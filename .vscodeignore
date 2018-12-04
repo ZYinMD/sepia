@@ -1,6 +1,12 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+
+# things for developing the theme:
+node_modules
 snapshots
 pallettes
 themes/references
+language-examples
+scripts
+syntax-highlighting-rules
