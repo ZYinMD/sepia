@@ -2,7 +2,7 @@
 .vscode-test/**
 .gitignore
 
-# things for developing the theme:
+# things needed only when developing the theme:
 node_modules
 snapshots
 pallettes
