@@ -17,16 +17,16 @@ if (!rules)
 for (let i of rules)
 	i.settings.foreground = pallette[i.settings.foreground];
 
-	const officialThemeName = (() => {
-		switch (themeName) {
-			case 'sepia':
+const officialThemeName = (() => {
+	switch (themeName) {
+		case 'sepia':
 			return 'Sepia';
-			case 'sepia-from-cuttle-fish':
+		case 'sepia-from-cuttle-fish':
 			return 'Sepia from Cuttlefish';
-			default:
+		default:
 			break;
-		}
-	})();
+	}
+})();
 
 // create keys in userSettings if not existed:
 userSettings['editor.tokenColorCustomizations'] = userSettings['editor.tokenColorCustomizations'] || {};
