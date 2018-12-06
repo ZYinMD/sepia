@@ -1,0 +1,11 @@
+[
+	{
+		"name": "entity.name.section", // markdown headings, like #, ##, ###
+		"scope": [
+			"entity.name.section"
+		],
+		"settings": {
+			"foreground": "cyan"
+		}
+	}
+]

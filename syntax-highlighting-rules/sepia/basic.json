@@ -1,19 +1,176 @@
+/*
+this file contains the "minimal scope coverage" recommended by Sublime Text 3:
+https://www.sublimetext.com/docs/3/scope_naming.html (scroll to the bottom)
+ */
+
 [
 	{
-		"name": "Comment",
+		"name": "default color",
 		"scope": [
-			"comment",
-			"meta.documentation"
+			"text",
+			"source"
 		],
 		"settings": {
-			"foreground": "grey"
+			"foreground": "default"
+		}
+	},
+
+	{
+		"name": "data structures, types and identifiers",
+			// Define things.
+			// Also include function calls if not otherwise specified,  which is very bad, for example aaa.bbb.ccc.ddd(), the ddd will be colored orange, which sucks. the bbb.ccc.ddd are all under meta.function-call, but the ddd is under entity.name.function.js, which is more specific
+		"scope": [
+			"entity.name"
+		],
+		"settings": {
+			"foreground": "green"
+		}
+	},
+
+	{
+		"name": "entity.other.inherited - class", // I've never encountered this scope in real codes, just set it to maroon for now.
+		"scope": [
+			"entity.other.inherited - class"
+		],
+		"settings": {
+			"foreground": "maroon"
+		}
+	},
+
+	{
+		"name": "variable",
+		"scope": [
+			"variable"
+		],
+		"settings": {
+			"foreground": "cyan"
 		}
 	},
 	{
-		"name": "String",
-		"scope": "string",
+		"name": "special variables like self, this, super, etc",
+		"scope": [
+			"variable.language"
+		],
 		"settings": {
-			"foreground": "olive"
+			"foreground": "maroon"
 		}
-	}
+	},
+	{
+		"name": "variable.parameter",
+		"scope": [
+			"variable.parameter"
+		],
+		"settings": {
+			"foreground": "orange"
+		}
+	},
+	{
+		"name": "variable.function",
+		"scope": [
+			"variable.function" // never encountered this scope in real code
+		],
+		"settings": {
+			"foreground": "cyan"
+		}
+	},
+	{
+		"name": "booleans, null, escape, symbols",
+		"scope": [
+			"constant"
+		],
+		"settings": {
+			"foreground": "purple"
+		}
+	},
+	{
+		"name": "numbers",
+		"scope": [
+			"constant.numeric"
+		],
+		"settings": {
+			"foreground": "orange"
+		}
+	},
+	{
+		"name": "int, bool, char, func, function, class, def, static, inline, const, public, and private",
+		"scope": [
+			"storage.type"
+		],
+		"settings": {
+			"foreground": "blue"
+		}
+	},
+	{
+		"name": "support",
+		"scope": [
+			"support"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	} /*,
+	{
+		"name": "keyword",
+		"scope": [
+			"keyword"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	},
+	{
+		"name": "keyword.control",
+		"scope": [
+			"keyword.control"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	},
+	{
+		"name": "keyword.operator",
+		"scope": [
+			"keyword.operator"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	},
+	{
+		"name": "string",
+		"scope": [
+			"string"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	},
+	{
+		"name": "comment",
+		"scope": [
+			"comment"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	},
+	{
+		"name": "invalid",
+		"scope": [
+			"invalid"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	},
+	{
+		"name": "invalid.deprecated",
+		"scope": [
+			"invalid.deprecated"
+		],
+		"settings": {
+			"foreground": "red"
+		}
+	},
+ */
 ]

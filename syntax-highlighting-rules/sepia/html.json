@@ -1,0 +1,48 @@
+[
+	{
+		"name": "text on the webpage",
+		"scope": [
+			"text.html.derivative"
+		],
+		"settings": {
+			"foreground": "default"
+		}
+	},
+	{
+		"name": "html/xml tag",
+		"scope": [
+			"entity.name.tag",
+			"punctuation.definition.tag" // anglebrackets of tags
+		],
+		"settings": {
+			"foreground": "blue"
+		}
+	},
+	{
+		"name": "class",
+		"scope": [
+			"meta.attribute.class"
+		],
+		"settings": {
+			"foreground": "green"
+		}
+	},
+	{
+		"name": "id",
+		"scope": [
+			"meta.attribute.id"
+		],
+		"settings": {
+			"foreground": "maroon"
+		}
+	},
+	{
+		"name": "attribute names",
+		"scope": [
+			"entity.other.attribute-name"
+		],
+		"settings": {
+			"foreground": "tan"
+		}
+	}
+]

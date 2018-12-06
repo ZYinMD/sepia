@@ -1,6 +1,13 @@
 [
 	{
-		"name": "CSS .class",
+		"name": "color names",
+		"scope": "constant.other.color",
+		"settings": {
+			"foreground": "orange"
+		}
+	},
+	{
+		"name": "CSS: .class",
 		"scope": "entity.other.attribute-name.class",
 		"settings": {
 			"foreground": "green"
