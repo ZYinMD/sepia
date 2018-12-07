@@ -1,13 +1,14 @@
 
 .default {
-	color: #0009;
+	color: #0008;
 	color: #222b;
 	color: #333b;
 	color: #334b;
 	color: #323a;
 	color: #102a;
-	color: #323a;
-	color: #836e69;
+	color: #3239;
+	color: #2118;
+	color: #8d796b;
 }
 
 .grey {
@@ -18,36 +19,59 @@
 	color: #f00;
 }
 
-.cyan {
-	color: #24a197;
-	color: #099e;
-
-}
-
-.orange {
-	color: #f77b00e6;
-}
-
-.olive {
-	color: #890;
-}
-
 .maroon {
 	color: #c10c;
 }
 
+.green {
+  color: #094e;
+
+}
+
+.blue {
+  color: #08ad;
+}
 
 .yellow {
 	color: #b82;
+	color: #971c;
+	color: #b93;
+	color: #a82d;
+	color: #bb9a38;
+	color: #b69235;
+	color: #b39330;
+	color: #b69235f5;
+	color: #b79533;
+}
+
+.purple {
+	color: #909a;
+}
+
+.cyan {
+	color: #099e;
+	color: #2a9;
+
+}
+
+.orange {
+  color: #f77b00e6;
+  color: #f67a00;
+	color: #f77b00;
+
+}
+
+.olive {
+  color: #890;
+}
+
+.pink {
+	color: #f7c;
+	color: #f977c0;
 }
 
 .teal {
 	color: #088;
-}
-
-.purple {
-	color: #990099a5;
-	color: #940094ab;
 }
 
 .tan {
@@ -56,26 +80,17 @@
 	color: #97733dd0;
 }
 
-.blue {
-	color: #08ad;
-}
-
 .magenta {
 	color: #b36e;
 	color: #bb3366d6;
 	color: #b36d;
 }
 
-.green {
-	color: #094e;
-
-
-}
-
 .black {
 	color: #000;
 
 }
+
 body {
 	padding-top: 30px;
 	background-color: #fec;

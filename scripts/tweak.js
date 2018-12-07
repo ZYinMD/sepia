@@ -26,7 +26,7 @@ const officialThemeName = (() => {
 		case 'sepia-from-cuttle-fish':
 			return 'Sepia from Cuttlefish';
 		default:
-			break;
+			throw `Unrecognized theme name "${themeName}"`;
 	}
 })();
 
