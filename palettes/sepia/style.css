@@ -81,17 +81,14 @@ body {
 	background-color: #fec;
 	font-family: Consolas, monospace;
 	font-size: 21px;
-	max-width: 1080px;
+	max-width: 1000px;
 	margin: auto;
 }
 
 section {
 	margin-top: 50px;
 }
-.colors .color-names {
-	margin-top: 30px;
-}
 
-.colors p {
-	margin-top: 10px;
+span {
+	padding: 3px
 }

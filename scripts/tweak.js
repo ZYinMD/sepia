@@ -9,13 +9,15 @@ const userSettings = json.parse(fs.readFileSync(pathToUserSettings));
 if (!userSettings)
 	throw "Failed to locate settings.json of VSCode, please check scripts/path-to-user-settings.js to find why";
 
-const pallette = require(`../pallettes/${themeName}/palette.json`);
+const {palette} = require(`../palettes/${themeName}/palette.js`);
+console.log(palette);
+
 const rules = require('./buildRules.js')(themeName);
 if (!rules)
 	throw `Can't find valid rules in syntax-highlighting-rules/${themeName}`;
 
 for (let i of rules)
-	i.settings.foreground = pallette[i.settings.foreground];
+	i.settings.foreground = palette[i.settings.foreground];
 
 const officialThemeName = (() => {
 	switch (themeName) {
