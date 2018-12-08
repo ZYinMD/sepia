@@ -1,4 +1,3 @@
-
 .default {
 	color: #0008;
 	color: #222b;
@@ -9,9 +8,11 @@
 	color: #3239;
 	color: #2118;
 	color: #8d796b;
+
 }
 
 .grey {
+	color: #999c;
 	color: #999d;
 }
 
@@ -24,12 +25,14 @@
 }
 
 .green {
-  color: #094e;
+	color: #094e;
 
 }
 
 .blue {
-  color: #08ad;
+	color: #07ac;
+	color: #08ad;
+	color: #08bd;
 }
 
 .yellow {
@@ -55,19 +58,20 @@
 }
 
 .orange {
-  color: #f77b00e6;
-  color: #f67a00;
+	color: #f77b00e6;
+	color: #f67a00;
 	color: #f77b00;
 
 }
 
 .olive {
-  color: #890;
+	color: #890;
 }
 
 .pink {
+	color: #fd45ad;
 	color: #f7c;
-	color: #f977c0;
+	color: #f08c;
 }
 
 .teal {

@@ -10,7 +10,6 @@ if (!userSettings)
 	throw "Failed to locate settings.json of VSCode, please check scripts/path-to-user-settings.js to find why";
 
 const palette = require(`../palettes/${themeName}/palette.js`);
-console.log(palette);
 
 const rules = require('./buildRules.js')(themeName);
 if (!rules)
