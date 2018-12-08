@@ -1,0 +1,20 @@
+[
+	{
+		"name": "JSON: key name",
+		"scope": [
+			"support.type.property-name.json"
+		],
+		"settings": {
+			"foreground": "cyan"
+		}
+	},
+	{
+		"name": "JSON: string value",
+		"scope": [
+			"string.quoted.double.json"
+		],
+		"settings": {
+			"foreground": "olive"
+		}
+	}
+]
