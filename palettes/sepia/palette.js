@@ -7,14 +7,14 @@ var palette = {
 	blue: '#08bd',
 	yellow: '#b82',
 	purple: '#940094ab',
-	cyan: '#099e',
+	cyan: '#30a195',
 	orange: '#f77b00e6',
 	olive: '#890',
 	pink: '#f08c',
 	teal: '#088',
 	tan: '#97733dd0',
 	magenta: '#b36d',
-	black: '#000'
+	black: '#2d2d2d'
 };
 
 try {
