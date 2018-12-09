@@ -1,4 +1,4 @@
-const skippedColors = ['default', 'grey', 'red', 'black']; // colors not needed to show combinations with others
+const skippedColors = ['grey', 'silver', 'pink', 'red', 'black']; // colors not needed to show combinations with others
 var colors = Object.keys(palette);
 const lines = document.querySelector('section.lines');
 const blocks = document.querySelector('section.blocks');
@@ -20,7 +20,6 @@ colors.forEach((color, index, colors) => {
 		let combo = document.createElement('p');
 		let A = `<span class="${color}">${color}</span>`;
 		let B = `<span class="${color2}">${color2}</span>`;
-		// // combo.innerHTML = `<span class="${color}">${color}</span><span class="${color2}">${color2}</span><span class="${color}">${color}</span><span class="${color2}">${color2}</span>`
 		combo.innerHTML = A + B + A + B + A + A + B + B;
 		combinations.append(combo);
 	}

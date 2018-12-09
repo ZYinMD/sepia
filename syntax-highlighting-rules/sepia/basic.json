@@ -1,8 +1,3 @@
-/*
-this file contains the "minimal scope coverage" recommended by Sublime Text 3:
-https://www.sublimetext.com/docs/3/scope_naming.html (scroll to the bottom)
- */
-
 [
 	{
 		"name": "default color",
@@ -14,54 +9,81 @@ https://www.sublimetext.com/docs/3/scope_naming.html (scroll to the bottom)
 			"foreground": "default"
 		}
 	},
-
 	{
-		"name": "data structures, types and identifiers",
-			// Define things.
-			// Also include function calls if not otherwise specified,  which is very bad, for example aaa.bbb.ccc.ddd(), the ddd will be colored orange, which sucks. the bbb.ccc.ddd are all under meta.function-call, but the ddd is under entity.name.function.js, which is more specific
+		"name": "data structures, types and identifiers, e.g. function names",
 		"scope": [
 			"entity.name"
 		],
 		"settings": {
-			"foreground": "green"
+			"foreground": "function"
 		}
 	},
-
 	{
-		"name": "entity.other.inherited - class", // I've never encountered this scope in real codes, just set it to maroon for now.
+		"name": "function calls",
 		"scope": [
-			"entity.other.inherited - class"
+			"meta.function-call",
+			"meta.function-call entity.name.function", // standalone function call
+			"support.function"
+
 		],
 		"settings": {
-			"foreground": "maroon"
+			"foreground": "call"
 		}
 	},
-
 	{
-		"name": "variable",
+		"name": "inherited class",
+		"scope": [
+			"entity.other.inherited-class"
+		],
+		"settings": {
+			"foreground": "teal"
+		}
+	},
+	{
+		"name": "variables",
 		"scope": [
 			"variable"
 		],
 		"settings": {
-			"foreground": "cyan"
+			"foreground": "variable"
 		}
 	},
 	{
-		"name": "special variables like self, this, super, etc",
+		"name": "properties",
+		"scope": [
+			"support.type.property-name", // e.g. JSON key name
+			"meta.object-literal.key" // e.g. key name of object literal
+		],
+		"settings": {
+			"foreground": "property" // it's the same color as variable
+		}
+	},
+	{
+		"name": "reserved variables of languages: self, this, super, etc",
 		"scope": [
 			"variable.language"
 		],
 		"settings": {
-			"foreground": "maroon"
+			"foreground": "reserved"
 		}
 	},
 	{
-		"name": "variable.parameter",
+		"name": "built-in variables of runtime: window, document, prototype, etc",
+		"scope": [
+			"support.variable",
+			"support.class"
+		],
+		"settings": {
+			"foreground": "builtIn"
+		}
+	},
+	{
+		"name": "function parameter declaration",
 		"scope": [
 			"variable.parameter"
 		],
 		"settings": {
-			"foreground": "orange"
+			"foreground": "parameter"
 		}
 	},
 	{
@@ -70,11 +92,11 @@ https://www.sublimetext.com/docs/3/scope_naming.html (scroll to the bottom)
 			"variable.function" // never encountered this scope in real code
 		],
 		"settings": {
-			"foreground": "cyan"
+			"foreground": "red"
 		}
 	},
 	{
-		"name": "booleans, null, escape, symbols",
+		"name": "booleans, null, undefined, escape, symbols, etc",
 		"scope": [
 			"constant"
 		],
@@ -94,46 +116,74 @@ https://www.sublimetext.com/docs/3/scope_naming.html (scroll to the bottom)
 	{
 		"name": "int, bool, char, func, function, class, def, static, inline, const, public, and private",
 		"scope": [
-			"storage.type"
+			"storage"
 		],
 		"settings": {
-			"foreground": "blue"
+			"foreground": "declaration"
 		}
 	},
 	{
-		"name": "support",
+		"name": "legal but unsure / user constructs",
 		"scope": [
-			"support"
+			"support.type"
 		],
 		"settings": {
-			"foreground": "teal"
-		}
-	} /*,
-	{
-		"name": "keyword",
-		"scope": [
-			"keyword"
-		],
-		"settings": {
-			"foreground": "red"
+			"foreground": "default"
 		}
 	},
 	{
-		"name": "keyword.control",
+		"name": "import / export",
+		"scope": [
+			"keyword.import",
+			"keyword.export",
+			"keyword.control.import",
+			"keyword.control.export",
+			"keyword.control.directive.include"
+			// "meta.import",
+			// "meta.export"
+		],
+		"settings": {
+			"foreground": "module"
+		}
+	},
+	{
+		"name": "flow control",
 		"scope": [
 			"keyword.control"
 		],
 		"settings": {
-			"foreground": "red"
+			"foreground": "orange"
 		}
 	},
 	{
-		"name": "keyword.operator",
+		"name": "conditional flow control", // only a few languages are able to enjoy this awesome feature, too bad
+		"scope": [
+			"keyword.control.conditional",
+			"keyword.control.trycatch",
+			"keyword.control.loop",
+			"switch-expression.expr keyword.control.switch"
+
+		],
+		"settings": {
+			"foreground": "black"
+		}
+	},
+	{
+		"name": "operators",
 		"scope": [
 			"keyword.operator"
 		],
 		"settings": {
-			"foreground": "red"
+			"foreground": "orange"
+		}
+	},
+	{
+		"name": "other keyword", // examples: "px" in css
+		"scope": [
+			"keyword"
+		],
+		"settings": {
+			"foreground": "yellow"
 		}
 	},
 	{
@@ -142,16 +192,23 @@ https://www.sublimetext.com/docs/3/scope_naming.html (scroll to the bottom)
 			"string"
 		],
 		"settings": {
-			"foreground": "red"
+			"foreground": "string"
 		}
 	},
+	{
+		"name": "Regular Expressions",
+		"scope": "string.regexp",
+		"settings": {
+		  "foreground": "teal"
+		}
+	  },
 	{
 		"name": "comment",
 		"scope": [
 			"comment"
 		],
 		"settings": {
-			"foreground": "red"
+			"foreground": "silver"
 		}
 	},
 	{
@@ -169,8 +226,7 @@ https://www.sublimetext.com/docs/3/scope_naming.html (scroll to the bottom)
 			"invalid.deprecated"
 		],
 		"settings": {
-			"foreground": "red"
+			"foreground": "pink"
 		}
-	},
- */
+	}
 ]

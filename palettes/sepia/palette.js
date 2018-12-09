@@ -1,3 +1,9 @@
+// 灵感: check firebreak, salmon, crimson, chocolate, Darkorchid from web colors
+// 目前问题:
+// magenta太紫,应该再接近尹至红一点
+// purple不够紫, 应该再接近darkorchid一点
+// string不够黄, tan应该再接近yellow一点
+
 // this file will be used both by node and by browser
 
 var palette = {
@@ -22,10 +28,15 @@ var palette = {
 var alias = {
 	default: palette.grey,
 	variable: palette.olive,
+	property: palette.olive,
 	function: palette.green,
+	call: palette.cyan,
 	parameter: palette.yellow,
 	module: palette.maroon,
 	declaration: palette.blue,
+	string: palette.tan,
+	reserved: palette.magenta,
+	builtIn: palette.teal,
 }
 
 try {
