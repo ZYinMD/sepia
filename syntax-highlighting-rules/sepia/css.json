@@ -1,23 +1,55 @@
 [
 	{
-		"name": "color names",
-		"scope": "constant.other.color",
+		"name": "CSS: property names",
+		"scope": [
+			"support.type.property-name",
+			"support.type.vendored.property-name" // -webkit-
+		],
 		"settings": {
-			"foreground": "orange"
+			"foreground": "property"
 		}
 	},
 	{
-		"name": "CSS: .class",
-		"scope": "entity.other.attribute-name.class",
+		"name": "CSS: property value",
+		"scope": [
+			"meta.property-value"
+		],
 		"settings": {
-			"foreground": "green"
+			"foreground": "tan"
 		}
 	},
 	{
-		"name": "CSS: #id",
-		"scope": "entity.other.attribute-name.id",
+		"name": "CSS: @",
+		"scope": "keyword.control.at-rule",
 		"settings": {
-			"foreground": "purple"
+			"foreground": "maroon"
+		}
+	},
+	{
+		"name": "CSS: !important",
+		"scope": "keyword.other.important",
+		"settings": {
+			"foreground": "maroon"
+		}
+	},
+	{
+		"name": "color values",
+		"scope": [
+			"constant.other.color.rgb-value",
+			"constant.other.rgb-value",
+			"support.constant.color"
+		],
+		"settings": {
+			"foreground": "orange" // color names should be colorless
+		}
+	},
+	{
+		"name": "color names in English",
+		"scope": [
+			"support.constant.color.w3c-standard-color-name.css"
+		],
+		"settings": {
+			"foreground": "default" // color names should be colorless
 		}
 	}
 ]

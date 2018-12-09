@@ -1,39 +1,48 @@
+/*
+	this file also includes:
+		- JSX
+		- class and id in css/sass
+ */
+
 [
-	{
-		"name": "text on the webpage",
-		"scope": [
-			"text.html.derivative"
-		],
-		"settings": {
-			"foreground": "default"
-		}
-	},
 	{
 		"name": "html/xml tag",
 		"scope": [
 			"entity.name.tag",
-			"punctuation.definition.tag" // anglebrackets of tags
+			"punctuation.definition.tag", // anglebrackets of tags
+			"punctuation.definition.tag source" // a very special case
 		],
 		"settings": {
 			"foreground": "blue"
 		}
 	},
 	{
-		"name": "class",
+		"name": "react Component name in tags",
 		"scope": [
-			"meta.attribute.class"
+			"support.class.component.js"
+		],
+		"settings": {
+			"foreground": "cyan"
+		}
+	},
+	{
+		"name": "class names",
+		"scope": [
+			"meta.attribute.class string",
+			"entity.other.attribute-name.class" // css selector
 		],
 		"settings": {
 			"foreground": "green"
 		}
 	},
 	{
-		"name": "id",
+		"name": "html: id",
 		"scope": [
-			"meta.attribute.id"
+			"meta.attribute.id string",
+			"entity.other.attribute-name.id" // css selector
 		],
 		"settings": {
-			"foreground": "maroon"
+			"foreground": "magenta"
 		}
 	},
 	{
@@ -42,7 +51,16 @@
 			"entity.other.attribute-name"
 		],
 		"settings": {
-			"foreground": "tan"
+			"foreground": "olive"
+		}
+	},
+	{
+		"name": "JSX: equal sign between attribute names and value",
+		"scope": [
+			"meta.tag.attributes.js keyword.operator.assignment.js"
+		],
+		"settings": {
+			"foreground": "default"
 		}
 	}
 ]
