@@ -1,0 +1,12 @@
+[
+	{
+		"name": "JS: module",
+		"scope": [
+			"support.module.node",
+			"support.type.object.module"
+		],
+		"settings": {
+			"foreground": "module"
+		}
+	}
+]
