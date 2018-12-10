@@ -1,0 +1,11 @@
+[
+	{
+		"name": "java: imported modules",
+		"scope": [
+			"storage.modifier.import.java"
+		],
+		"settings": {
+			"foreground": "variable"
+		}
+	}
+]
