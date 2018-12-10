@@ -8,5 +8,14 @@
 		"settings": {
 			"foreground": "module"
 		}
+	},
+	{
+		"name": "JS: property of built-in variable",
+		"scope": [
+			"support.variable.property"
+		],
+		"settings": {
+			"foreground": "property"
+		}
 	}
 ]

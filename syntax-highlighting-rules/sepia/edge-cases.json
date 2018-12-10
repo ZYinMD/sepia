@@ -1,5 +1,5 @@
 [{
-	"name": "edge cases",
+	"name": "edge cases", // edge cases taken from dracula official, will graduately mark them with color and take away from edge cases
 	"scope": [
 		"constant.other.symbol.hashkey.ruby",
 		"keyword.operator.dereference.java",
@@ -7,7 +7,6 @@
 		"meta.scope.for-loop.shell punctuation.definition.string.begin",
 		"meta.scope.for-loop.shell punctuation.definition.string.end",
 		"meta.scope.for-loop.shell string",
-		"storage.modifier.import",
 		"punctuation.section.embedded.begin.tsx",
 		"punctuation.section.embedded.end.tsx",
 		"punctuation.section.embedded.begin.jsx",

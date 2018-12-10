@@ -257,5 +257,434 @@
 		//"textPreformat.foreground": "#a31515",
 		//"textSeparator.foreground": "#0000002e"
 	},
-	"tokenColors": []
+	"tokenColors": [
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#316bcd"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#cd9731"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#cd3131"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#800080"
+			}
+		},
+		{
+			"name": "default color",
+			"scope": [
+				"text",
+				"source"
+			],
+			"settings": {
+				"foreground": "#836e69"
+			}
+		},
+		{
+			"name": "data structures, types and identifiers, e.g. function names",
+			"scope": [
+				"entity.name"
+			],
+			"settings": {
+				"foreground": "#094e"
+			}
+		},
+		{
+			"name": "function calls",
+			"scope": [
+				"meta.function-call",
+				"meta.function-call entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#30a195"
+			}
+		},
+		{
+			"name": "inherited class",
+			"scope": [
+				"entity.other.inherited-class"
+			],
+			"settings": {
+				"foreground": "#088"
+			}
+		},
+		{
+			"name": "variables",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "properties",
+			"scope": [
+				"variable.other.property",
+				"variable.other.object.property",
+				"support.type.property-name",
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "reserved variables of languages: self, this, super, etc",
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "#b36d"
+			}
+		},
+		{
+			"name": "built-in variables of runtime: window, document, prototype, etc",
+			"scope": [
+				"support.variable",
+				"support.class",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "#088"
+			}
+		},
+		{
+			"name": "function parameter declaration",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#b82"
+			}
+		},
+		{
+			"name": "variable.function",
+			"scope": [
+				"variable.function"
+			],
+			"settings": {
+				"foreground": "#088"
+			}
+		},
+		{
+			"name": "booleans, null, undefined, escape, symbols, etc",
+			"scope": [
+				"constant"
+			],
+			"settings": {
+				"foreground": "#940094ab"
+			}
+		},
+		{
+			"name": "numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#f77b00e6"
+			}
+		},
+		{
+			"name": "int, bool, char, func, function, class, def, static, inline, const, public, and private",
+			"scope": [
+				"storage"
+			],
+			"settings": {
+				"foreground": "#08bd"
+			}
+		},
+		{
+			"name": "legal but unsure / user constructs",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#836e69"
+			}
+		},
+		{
+			"name": "import / export",
+			"scope": [
+				"keyword.import",
+				"keyword.export",
+				"keyword.control.import",
+				"keyword.control.export",
+				"keyword.other.import",
+				"keyword.other.export",
+				"keyword.control.directive.include"
+			],
+			"settings": {
+				"foreground": "#c10c"
+			}
+		},
+		{
+			"name": "flow control",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#f77b00e6"
+			}
+		},
+		{
+			"name": "conditional flow control",
+			"scope": [
+				"keyword.control.conditional",
+				"keyword.control.trycatch",
+				"keyword.control.loop",
+				"switch-expression.expr keyword.control.switch"
+			],
+			"settings": {
+				"foreground": "#2d2d2d"
+			}
+		},
+		{
+			"name": "operators",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#f77b00e6"
+			}
+		},
+		{
+			"name": "other keyword",
+			"scope": [
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#b82"
+			}
+		},
+		{
+			"name": "string",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#97733dd0"
+			}
+		},
+		{
+			"name": "Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#088"
+			}
+		},
+		{
+			"name": "comment",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#999c"
+			}
+		},
+		{
+			"name": "invalid",
+			"scope": [
+				"invalid"
+			],
+			"settings": {
+				"foreground": "#f00"
+			}
+		},
+		{
+			"name": "invalid.deprecated",
+			"scope": [
+				"invalid.deprecated"
+			],
+			"settings": {
+				"foreground": "#f08c"
+			}
+		},
+		{
+			"name": "CSS: property names",
+			"scope": [
+				"support.type.property-name",
+				"support.type.vendored.property-name"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "CSS: property value",
+			"scope": [
+				"meta.property-value",
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media"
+			],
+			"settings": {
+				"foreground": "#97733dd0"
+			}
+		},
+		{
+			"name": "CSS: @",
+			"scope": "keyword.control.at-rule",
+			"settings": {
+				"foreground": "#c10c"
+			}
+		},
+		{
+			"name": "CSS: !important",
+			"scope": "keyword.other.important",
+			"settings": {
+				"foreground": "#c10c"
+			}
+		},
+		{
+			"name": "color values",
+			"scope": [
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color"
+			],
+			"settings": {
+				"foreground": "#f77b00e6"
+			}
+		},
+		{
+			"name": "color names in English",
+			"scope": [
+				"support.constant.color.w3c-standard-color-name.css",
+				"support.constant.color.w3c-extended-color-name"
+			],
+			"settings": {
+				"foreground": "#836e69"
+			}
+		},
+		{
+			"name": "edge cases",
+			"scope": [
+				"constant.other.symbol.hashkey.ruby",
+				"keyword.operator.dereference.java",
+				"keyword.operator.navigation.groovy",
+				"meta.scope.for-loop.shell punctuation.definition.string.begin",
+				"meta.scope.for-loop.shell punctuation.definition.string.end",
+				"meta.scope.for-loop.shell string",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx",
+				"punctuation.separator.list.comma.css",
+				"constant.language.empty-list.haskell"
+			],
+			"settings": {
+				"foreground": "#836e69"
+			}
+		},
+		{
+			"name": "html/xml tag",
+			"scope": [
+				"entity.name.tag",
+				"punctuation.definition.tag",
+				"punctuation.definition.tag source"
+			],
+			"settings": {
+				"foreground": "#08bd"
+			}
+		},
+		{
+			"name": "react Component name in tags",
+			"scope": [
+				"support.class.component.js"
+			],
+			"settings": {
+				"foreground": "#30a195"
+			}
+		},
+		{
+			"name": "class names",
+			"scope": [
+				"meta.attribute.class string",
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "#094e"
+			}
+		},
+		{
+			"name": "html: id",
+			"scope": [
+				"meta.attribute.id string",
+				"entity.other.attribute-name.id"
+			],
+			"settings": {
+				"foreground": "#b36d"
+			}
+		},
+		{
+			"name": "attribute names",
+			"scope": [
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "JSX: equal sign between attribute names and value",
+			"scope": [
+				"meta.tag.attributes.js keyword.operator.assignment.js"
+			],
+			"settings": {
+				"foreground": "#836e69"
+			}
+		},
+		{
+			"name": "java: imported modules",
+			"scope": [
+				"storage.modifier.import.java"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "JS: module",
+			"scope": [
+				"support.module.node",
+				"support.type.object.module"
+			],
+			"settings": {
+				"foreground": "#c10c"
+			}
+		},
+		{
+			"name": "JS: property of built-in variable",
+			"scope": [
+				"support.variable.property"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "entity.name.section",
+			"scope": [
+				"entity.name.section"
+			],
+			"settings": {
+				"foreground": "#30a195"
+			}
+		}
+	]
 }
