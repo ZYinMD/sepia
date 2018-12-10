@@ -44,9 +44,11 @@ const aliases = {
 	control: palette.orange,
 	flow: palette.black,
 	constant: palette.purple,
+	regex: palette.yellow,
 	keyword: palette.yellow,
 	invalid: palette.red,
 	deprecated: palette.pink,
+
 }
 
 try {
