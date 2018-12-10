@@ -6,7 +6,7 @@
 
 // this file will be used both by node and by browser
 
-var palette = {
+const palette = {
 	grey: '#836e69',
 	silver: '#999c',
 	black: '#2d2d2d',
@@ -25,7 +25,7 @@ var palette = {
 	teal: '#088',
 };
 
-var alias = {
+const aliases = {
 	default: palette.grey,
 	variable: palette.olive,
 	property: palette.olive,
@@ -34,13 +34,23 @@ var alias = {
 	parameter: palette.yellow,
 	module: palette.maroon,
 	declaration: palette.blue,
+	tag: palette.blue,
 	string: palette.tan,
 	reserved: palette.magenta,
 	builtIn: palette.teal,
+	inherited: palette.teal,
+	number: palette.orange,
+	operator: palette.orange,
+	control: palette.orange,
+	flow: palette.black,
+	constant: palette.purple,
+	keyword: palette.yellow,
+	invalid: palette.red,
+	deprecated: palette.pink,
 }
 
 try {
-	module.exports = Object.assign(palette, alias);
+	module.exports = Object.assign(palette, aliases);
 } catch (err) {
 	// the exports can be used in node, browser doesn't understand it, but browser can use the palette.
 }

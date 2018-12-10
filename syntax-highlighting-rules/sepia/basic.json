@@ -36,7 +36,7 @@
 			"entity.other.inherited-class"
 		],
 		"settings": {
-			"foreground": "teal"
+			"foreground": "inherited"
 		}
 	},
 	{
@@ -51,6 +51,8 @@
 	{
 		"name": "properties",
 		"scope": [
+			"variable.other.property", // e.g. property of js object
+			"variable.other.object.property", // e.g. property of a property of js object
 			"support.type.property-name", // e.g. JSON key name
 			"meta.object-literal.key" // e.g. key name of object literal
 		],
@@ -71,7 +73,8 @@
 		"name": "built-in variables of runtime: window, document, prototype, etc",
 		"scope": [
 			"support.variable",
-			"support.class"
+			"support.class",
+			"support.constant"
 		],
 		"settings": {
 			"foreground": "builtIn"
@@ -92,7 +95,7 @@
 			"variable.function" // never encountered this scope in real code
 		],
 		"settings": {
-			"foreground": "red"
+			"foreground": "builtIn"
 		}
 	},
 	{
@@ -101,7 +104,7 @@
 			"constant"
 		],
 		"settings": {
-			"foreground": "purple"
+			"foreground": "constant"
 		}
 	},
 	{
@@ -110,7 +113,7 @@
 			"constant.numeric"
 		],
 		"settings": {
-			"foreground": "orange"
+			"foreground": "number"
 		}
 	},
 	{
@@ -138,6 +141,8 @@
 			"keyword.export",
 			"keyword.control.import",
 			"keyword.control.export",
+			"keyword.other.import",
+			"keyword.other.export",
 			"keyword.control.directive.include"
 			// "meta.import",
 			// "meta.export"
@@ -152,7 +157,7 @@
 			"keyword.control"
 		],
 		"settings": {
-			"foreground": "orange"
+			"foreground": "control"
 		}
 	},
 	{
@@ -165,7 +170,7 @@
 
 		],
 		"settings": {
-			"foreground": "black"
+			"foreground": "flow"
 		}
 	},
 	{
@@ -174,7 +179,7 @@
 			"keyword.operator"
 		],
 		"settings": {
-			"foreground": "orange"
+			"foreground": "operator"
 		}
 	},
 	{
@@ -183,7 +188,7 @@
 			"keyword"
 		],
 		"settings": {
-			"foreground": "yellow"
+			"foreground": "keyword"
 		}
 	},
 	{
@@ -226,7 +231,7 @@
 			"invalid.deprecated"
 		],
 		"settings": {
-			"foreground": "pink"
+			"foreground": "deprecated"
 		}
 	}
 ]

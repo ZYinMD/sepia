@@ -10,26 +10,30 @@
 		}
 	},
 	{
-		"name": "CSS: property value",
+		"name": "CSS: property value", // needs to be specified because support.constant was colored as "builtIn"
 		"scope": [
-			"meta.property-value"
+			"meta.property-value",
+			"support.constant.property-value",
+			"support.constant.font-name",
+			"support.constant.media-type",
+			"support.constant.media"
 		],
 		"settings": {
-			"foreground": "tan"
+			"foreground": "string"
 		}
 	},
 	{
 		"name": "CSS: @",
 		"scope": "keyword.control.at-rule",
 		"settings": {
-			"foreground": "maroon"
+			"foreground": "module"
 		}
 	},
 	{
 		"name": "CSS: !important",
 		"scope": "keyword.other.important",
 		"settings": {
-			"foreground": "maroon"
+			"foreground": "module"
 		}
 	},
 	{
@@ -40,13 +44,14 @@
 			"support.constant.color"
 		],
 		"settings": {
-			"foreground": "orange" // color names should be colorless
+			"foreground": "number"
 		}
 	},
 	{
 		"name": "color names in English",
 		"scope": [
-			"support.constant.color.w3c-standard-color-name.css"
+			"support.constant.color.w3c-standard-color-name.css",
+			"support.constant.color.w3c-extended-color-name"
 		],
 		"settings": {
 			"foreground": "default" // color names should be colorless

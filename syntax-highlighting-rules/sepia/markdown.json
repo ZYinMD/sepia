@@ -5,7 +5,7 @@
 			"entity.name.section"
 		],
 		"settings": {
-			"foreground": "cyan"
+			"foreground": "tag"
 		}
 	}
 ]
