@@ -9,30 +9,12 @@
 		}
 	},
 	{
-		"name": "python: punctuation",
-		"scope": [
-			"source.python punctuation"
-		],
-		"settings": {
-			"foreground": "default"
-		}
-	},
-	{
 		"name": "python: arguments",
 		"scope": [
 			"meta.function-call.arguments"
 		],
 		"settings": {
-			"foreground": "parameter"
-		}
-	},
-	{
-		"name": "python: self",
-		"scope": [
-			"variable.language.special.self"
-		],
-		"settings": {
-			"foreground": "builtIn"
+			"foreground": "argument"
 		}
 	},
 	{
