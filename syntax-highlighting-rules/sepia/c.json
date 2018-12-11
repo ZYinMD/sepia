@@ -1,0 +1,31 @@
+[
+	{
+		"name": "c: default color",
+		"scope": [
+			"source.c"
+		],
+		"settings": {
+			"foreground": "variable"
+		}
+	},
+	{
+		"name": "c: parameters",
+		"scope": [
+			"meta.function.c"
+		],
+		"settings": {
+			"foreground": "parameter"
+		}
+	},
+	{
+		"name": "c: arguments",
+		"scope": [
+			"meta.function-call.c"
+		],
+		"settings": {
+			"foreground": "argument"
+		}
+	}
+
+
+]

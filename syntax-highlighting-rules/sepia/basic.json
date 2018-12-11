@@ -142,7 +142,7 @@
 			"support.type"
 		],
 		"settings": {
-			"foreground": "default"
+			"foreground": "unsure"
 		}
 	},
 	{
@@ -255,6 +255,15 @@
 		],
 		"settings": {
 			"foreground": "deprecated"
+		}
+	},
+	{
+		"name": "directive",
+		"scope": [
+			"punctuation.definition.directive"
+		],
+		"settings": {
+			"foreground": "control"
 		}
 	}
 ]
