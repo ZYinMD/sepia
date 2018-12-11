@@ -2,7 +2,8 @@
 	{
 		"name": "c: default color",
 		"scope": [
-			"source.c"
+			"source.c",
+			"source.cpp"
 		],
 		"settings": {
 			"foreground": "variable"
