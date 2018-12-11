@@ -1,0 +1,11 @@
+[
+	{
+		"name": "shell variable $ prefix",
+		"scope": [
+			"punctuation.definition.variable.shell"
+		],
+		"settings": {
+			"foreground": "variable"
+		}
+	}
+]
