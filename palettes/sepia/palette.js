@@ -25,6 +25,7 @@ const palette = {
 	teal: '#088',
 };
 
+
 const aliases = {
 	default: palette.grey,
 	variable: palette.olive,
@@ -32,23 +33,24 @@ const aliases = {
 	function: palette.green,
 	call: palette.cyan,
 	parameter: palette.yellow,
+	argument: palette.yellow,
 	module: palette.maroon,
 	declaration: palette.blue,
 	tag: palette.blue,
 	string: palette.tan,
-	reserved: palette.magenta,
+	reserved: palette.teal,
 	builtIn: palette.teal,
 	inherited: palette.teal,
+	storage: palette.teal,
 	number: palette.orange,
 	operator: palette.orange,
-	control: palette.orange,
+	control: palette.maroon,
 	flow: palette.black,
 	constant: palette.purple,
 	regex: palette.yellow,
-	keyword: palette.yellow,
+	keyword: palette.blue,
 	invalid: palette.red,
 	deprecated: palette.pink,
-
 }
 
 try {

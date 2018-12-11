@@ -1,7 +1,7 @@
 const fs = require('fs');
 const json = require('comment-json'); // support of json with comments
 if (!process.argv[2])
-	throw "Please provide the name of the theme you're tweaking, options are: \n`npm tweak sepia`\n`npm tweak sepia-from-cuttlefish`";
+	throw "Please provide the name of the theme you're tweaking, options are: \n`npm visualize sepia`\n`npm visualize sepia-from-cuttlefish`";
 const themeName = process.argv[2];
 const pathToUserSettings = require('./path-to-user-settings.js'); // vscode's user settings json file
 

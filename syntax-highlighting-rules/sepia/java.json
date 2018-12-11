@@ -1,8 +1,27 @@
 [
 	{
-		"name": "java: imported modules",
+		"name": "java: default color",
 		"scope": [
-			"storage.modifier.import.java"
+			"source.java"
+		],
+		"settings": {
+			"foreground": "variable"
+		}
+	},
+	{
+		"name": "java: arguments",
+		"scope": [
+			"meta.function-call.java",
+			"meta.method-call.java" // because function calls are already scoped
+		],
+		"settings": {
+			"foreground": "argument"
+		}
+	},
+	{
+		"name": "java: imported",
+		"scope": [
+			"storage.modifier.import"
 		],
 		"settings": {
 			"foreground": "variable"
