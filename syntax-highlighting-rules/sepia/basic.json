@@ -3,7 +3,8 @@
 		"name": "default color",
 		"scope": [
 			"text",
-			"source"
+			"source",
+			"punctuation" // some languages's source color was manually set, so punctuation has to reset
 		],
 		"settings": {
 			"foreground": "default"
@@ -22,9 +23,10 @@
 		"name": "function calls",
 		"scope": [
 			"meta.function-call",
-			"meta.function-call entity.name.function", // standalone function call
+			"meta.method-call",
+			"meta.function-call entity.name.function", // the function name of the function call, or a standalone function call in JS,
+			"meta.method-call entity.name.function", // similar as above
 			"support.function"
-
 		],
 		"settings": {
 			"foreground": "call"
@@ -117,12 +119,21 @@
 		}
 	},
 	{
-		"name": "int, bool, char, func, function, class, def, static, inline, const, public, and private",
+		"name": "var, const, let, int, bool, char, func, function, class, def",
 		"scope": [
-			"storage"
+			"storage.type"
 		],
 		"settings": {
 			"foreground": "declaration"
+		}
+	},
+	{
+		"name": "static, inline, const, public, private",
+		"scope": [
+			"storage.modifier"
+		],
+		"settings": {
+			"foreground": "storage"
 		}
 	},
 	{
@@ -139,11 +150,12 @@
 		"scope": [
 			"keyword.import",
 			"keyword.export",
-			"keyword.control.import",
+			"keyword.control.import", // python
 			"keyword.control.export",
 			"keyword.other.import",
 			"keyword.other.export",
-			"keyword.control.directive.include"
+			"keyword.other.using", // c#
+			"keyword.control.directive.include" // c
 			// "meta.import",
 			// "meta.export"
 		],
@@ -165,6 +177,7 @@
 		"scope": [
 			"keyword.control.conditional",
 			"keyword.control.trycatch",
+			"keyword.control.try",
 			"keyword.control.loop",
 			"switch-expression.expr keyword.control.switch"
 
@@ -194,7 +207,9 @@
 	{
 		"name": "string",
 		"scope": [
-			"string"
+			"string",
+			"punctuation.definition.string.begin",
+			"punctuation.definition.string.end"
 		],
 		"settings": {
 			"foreground": "string"
@@ -204,6 +219,8 @@
 		"name": "Regular Expressions",
 		"scope": [
 			"string.regexp",
+			"string.regexp punctuation.definition.string.begin",
+			"string.regexp punctuation.definition.string.end",
 			"constant.other.character-class.set.regexp",
 			"constant.other.character-class.regexp",
 			"constant.character.escape.backslash.regexp"
@@ -215,7 +232,8 @@
 	{
 		"name": "comment",
 		"scope": [
-			"comment"
+			"comment",
+			"punctuation.definition.comment" // punctuations were manually set to default, so punctuation comment need to be manually excluded
 		],
 		"settings": {
 			"foreground": "silver"
