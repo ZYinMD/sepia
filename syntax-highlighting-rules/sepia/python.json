@@ -20,8 +20,10 @@
 	{
 		"name": "python: function call as arguments",
 		"scope": [
-			"meta.function-call.arguments meta.function-call" // only the inner most arguments should be colored as argument
+			"meta.function-call.arguments meta.function-call"
 		],
+		// only the inner most arguments should be colored as argument
+		// in the end it doesn't matter, as variable and argument are set to the same color
 		"settings": {
 			"foreground": "variable"
 		}

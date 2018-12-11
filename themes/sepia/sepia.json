@@ -286,10 +286,11 @@
 			"name": "default color",
 			"scope": [
 				"text",
-				"source"
+				"source",
+				"punctuation"
 			],
 			"settings": {
-				"foreground": "#836e69"
+				"foreground": "#8d796b"
 			}
 		},
 		{
@@ -305,7 +306,9 @@
 			"name": "function calls",
 			"scope": [
 				"meta.function-call",
+				"meta.method-call",
 				"meta.function-call entity.name.function",
+				"meta.method-call entity.name.function",
 				"support.function"
 			],
 			"settings": {
@@ -348,7 +351,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#b36d"
+				"foreground": "#088"
 			}
 		},
 		{
@@ -368,7 +371,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#b82"
+				"foreground": "#78b"
 			}
 		},
 		{
@@ -386,7 +389,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#940094ab"
+				"foreground": "#909a"
 			}
 		},
 		{
@@ -395,16 +398,25 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#f77b00e6"
+				"foreground": "#f77b00e7"
 			}
 		},
 		{
-			"name": "int, bool, char, func, function, class, def, static, inline, const, public, and private",
+			"name": "var, const, let, int, bool, char, func, function, class, def",
 			"scope": [
-				"storage"
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#08bd"
+			}
+		},
+		{
+			"name": "static, inline, const, public, private",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#088"
 			}
 		},
 		{
@@ -413,7 +425,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#836e69"
+				"foreground": "#78b"
 			}
 		},
 		{
@@ -425,6 +437,7 @@
 				"keyword.control.export",
 				"keyword.other.import",
 				"keyword.other.export",
+				"keyword.other.using",
 				"keyword.control.directive.include"
 			],
 			"settings": {
@@ -437,7 +450,7 @@
 				"keyword.control"
 			],
 			"settings": {
-				"foreground": "#f77b00e6"
+				"foreground": "#c10c"
 			}
 		},
 		{
@@ -445,6 +458,7 @@
 			"scope": [
 				"keyword.control.conditional",
 				"keyword.control.trycatch",
+				"keyword.control.try",
 				"keyword.control.loop",
 				"switch-expression.expr keyword.control.switch"
 			],
@@ -458,7 +472,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#f77b00e6"
+				"foreground": "#f77b00e7"
 			}
 		},
 		{
@@ -467,29 +481,52 @@
 				"keyword"
 			],
 			"settings": {
-				"foreground": "#b82"
+				"foreground": "#08bd"
 			}
 		},
 		{
 			"name": "string",
 			"scope": [
-				"string"
+				"string",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
 			],
 			"settings": {
-				"foreground": "#97733dd0"
+				"foreground": "#b79533"
 			}
 		},
 		{
 			"name": "Regular Expressions",
-			"scope": "string.regexp",
+			"scope": [
+				"string.regexp",
+				"string.regexp punctuation.definition.string.begin",
+				"string.regexp punctuation.definition.string.end",
+				"constant.other.character-class.set.regexp",
+				"constant.other.character-class.regexp",
+				"constant.character.escape.backslash.regexp"
+			],
 			"settings": {
-				"foreground": "#088"
+				"foreground": "#e53d"
+			}
+		},
+		{
+			"name": "variable interpolation",
+			"scope": [
+				"meta.string-contents.quoted.double punctuation.definition.variable",
+				"punctuation.definition.interpolation",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.definition.variable.makefile"
+			],
+			"settings": {
+				"foreground": "#e53d"
 			}
 		},
 		{
 			"name": "comment",
 			"scope": [
-				"comment"
+				"comment",
+				"punctuation.definition.comment"
 			],
 			"settings": {
 				"foreground": "#999c"
@@ -514,6 +551,43 @@
 			}
 		},
 		{
+			"name": "directive",
+			"scope": [
+				"punctuation.definition.directive"
+			],
+			"settings": {
+				"foreground": "#c10c"
+			}
+		},
+		{
+			"name": "c: default color",
+			"scope": [
+				"source.c",
+				"source.cpp"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "c: parameters",
+			"scope": [
+				"meta.function.c"
+			],
+			"settings": {
+				"foreground": "#78b"
+			}
+		},
+		{
+			"name": "c: arguments",
+			"scope": [
+				"meta.function-call.c"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
 			"name": "CSS: property names",
 			"scope": [
 				"support.type.property-name",
@@ -533,7 +607,7 @@
 				"support.constant.media"
 			],
 			"settings": {
-				"foreground": "#97733dd0"
+				"foreground": "#b79533"
 			}
 		},
 		{
@@ -558,7 +632,7 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#f77b00e6"
+				"foreground": "#f77b00e7"
 			}
 		},
 		{
@@ -568,7 +642,7 @@
 				"support.constant.color.w3c-extended-color-name"
 			],
 			"settings": {
-				"foreground": "#836e69"
+				"foreground": "#8d796b"
 			}
 		},
 		{
@@ -588,7 +662,25 @@
 				"constant.language.empty-list.haskell"
 			],
 			"settings": {
-				"foreground": "#836e69"
+				"foreground": "#8d796b"
+			}
+		},
+		{
+			"name": "go: default",
+			"scope": [
+				"source.go"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "go: import(string)",
+			"scope": [
+				"string entity.name.import.go"
+			],
+			"settings": {
+				"foreground": "#b79533"
 			}
 		},
 		{
@@ -646,13 +738,32 @@
 				"meta.tag.attributes.js keyword.operator.assignment.js"
 			],
 			"settings": {
-				"foreground": "#836e69"
+				"foreground": "#8d796b"
 			}
 		},
 		{
-			"name": "java: imported modules",
+			"name": "java: default color",
 			"scope": [
-				"storage.modifier.import.java"
+				"source.java"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "java: arguments",
+			"scope": [
+				"meta.function-call.java",
+				"meta.method-call.java"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "java: imported",
+			"scope": [
+				"storage.modifier.import"
 			],
 			"settings": {
 				"foreground": "#890"
@@ -683,7 +794,72 @@
 				"entity.name.section"
 			],
 			"settings": {
-				"foreground": "#30a195"
+				"foreground": "#08bd"
+			}
+		},
+		{
+			"name": "php: $ sign",
+			"scope": [
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "php: $this",
+			"scope": [
+				"variable.language punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#088"
+			}
+		},
+		{
+			"name": "<?php?>",
+			"scope": [
+				"punctuation.section.embedded",
+				"punctuation.section.embedded.end source.php",
+				"punctuation.section.embedded.end source.ruby"
+			],
+			"settings": {
+				"foreground": "#78b"
+			}
+		},
+		{
+			"name": "python: default",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "python: arguments",
+			"scope": [
+				"meta.function-call.arguments"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "python: function call as arguments",
+			"scope": [
+				"meta.function-call.arguments meta.function-call"
+			],
+			"settings": {
+				"foreground": "#890"
+			}
+		},
+		{
+			"name": "shell variable $ prefix",
+			"scope": [
+				"punctuation.definition.variable.shell"
+			],
+			"settings": {
+				"foreground": "#890"
 			}
 		}
 	]
