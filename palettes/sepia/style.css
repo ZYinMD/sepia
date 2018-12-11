@@ -11,28 +11,65 @@
 
 }
 
-.silver {
-	color: #999c;
-	color: #999d;
+.neutral {
+	color: #8b6d3ccc;
 }
 
-.red {
-	color: #f00;
+.silver {
+	color: #888d;
+	color: #aaac;
+	color: #999d;
+	color: #999c;
+}
+
+.black {
+	color: #000;
+	color: #2d2d2d;
+}
+
+.pink {
+	color: #fd45ad;
+	color: #f7c;
+	color: #f08c;
+}
+
+.purple {
+	color: #9932cc;
+	color: #93bc;
+	color: #909a;
+}
+
+.magenta {
+	color: #b36e;
+	color: #bb3366d6;
+	color: #b36d;
 }
 
 .maroon {
 	color: #c10c;
 }
 
-.green {
-	color: #094e;
-
+.red {
+	color: #f00;
 }
 
-.blue {
-	color: #07ac;
-	color: #08ad;
-	color: #08bd;
+.russet {
+	color: #d1681d;
+	color: #c50e;
+	color: #c51d;
+}
+
+.rosy {
+	color: #da2d2dbb;
+	color: #eb582cdd;
+	color: #e52d;
+	color: #e53d;
+}
+
+.orange {
+	color: #f67a00;
+	color: #f77b00;
+	color: #f77b00e7;
 }
 
 .yellow {
@@ -40,15 +77,28 @@
 	color: #971c;
 	color: #b93;
 	color: #a82d;
+	color: #a83e;
 	color: #bb9a38;
 	color: #b69235;
 	color: #b39330;
 	color: #b69235f5;
+	color: #c2a03a;
 	color: #b79533;
 }
 
-.purple {
-	color: #909a;
+.tan {
+	color: #96733ccc;
+	color: #974c;
+	color: #963c;
+}
+
+.olive {
+	color: #890;
+	color: #8b6d3ccc;
+}
+
+.green {
+	color: #094e;
 }
 
 .cyan {
@@ -58,42 +108,18 @@
 	color: #30a195;
 }
 
-.orange {
-	color: #f77b00e6;
-	color: #f67a00;
-	color: #f77b00;
-
+.blue {
+	color: #07ac;
+	color: #08ad;
+	color: #08bd;
 }
 
-.olive {
-	color: #890;
+.indigo {
+	color: #78b;
+	color: #67a;
 }
-
-.pink {
-	color: #fd45ad;
-	color: #f7c;
-	color: #f08c;
-}
-
 .teal {
 	color: #088;
-}
-
-.tan {
-	color: #974c;
-	color: #963c;
-	color: #97733dd0;
-}
-
-.magenta {
-	color: #b36e;
-	color: #bb3366d6;
-	color: #b36d;
-}
-
-.black {
-	color: #000;
-	color: #2d2d2d;
 }
 
 body {
