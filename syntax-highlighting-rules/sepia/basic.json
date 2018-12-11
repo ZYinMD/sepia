@@ -142,7 +142,7 @@
 			"support.type"
 		],
 		"settings": {
-			"foreground": "unsure"
+			"foreground": "curveball"
 		}
 	},
 	{
@@ -226,9 +226,22 @@
 			"constant.character.escape.backslash.regexp"
 		],
 		"settings": {
-		  "foreground": "regex"
+			"foreground": "regex"
 		}
-	  },
+	},
+	{
+		"name": "variable interpolation",
+		"scope": [
+			"meta.string-contents.quoted.double punctuation.definition.variable",
+			"punctuation.definition.interpolation",
+			"punctuation.definition.template-expression.begin",
+			"punctuation.definition.template-expression.end",
+			"punctuation.definition.variable.makefile"
+		],
+		"settings": {
+			"foreground": "regex"
+		}
+	},
 	{
 		"name": "comment",
 		"scope": [

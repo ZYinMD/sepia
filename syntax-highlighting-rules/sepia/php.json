@@ -1,0 +1,30 @@
+[{
+		"name": "php: $ sign",
+		"scope": [
+			"punctuation.definition.variable.php"
+		],
+		"settings": {
+			"foreground": "variable"
+		}
+	},
+	{
+		"name": "php: $this",
+		"scope": [
+			"variable.language punctuation.definition.variable.php"
+		],
+		"settings": {
+			"foreground": "reserved"
+		}
+	},
+	{
+		"name": "<?php?>",
+		"scope": [
+			"punctuation.section.embedded",
+			"punctuation.section.embedded.end source.php",
+			"punctuation.section.embedded.end source.ruby" // this line should be in ruby.json, but for now
+		],
+		"settings": {
+			"foreground": "curveball"
+		}
+	}
+]
