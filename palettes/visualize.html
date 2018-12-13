@@ -23,7 +23,6 @@
 		span {
 			padding: 3px
 		}
-
 	</style>
 
 	<script>
@@ -33,23 +32,13 @@
 
 <body>
 	<header>
-		<form>
-			<h1>Which theme are you tweaking?</h1>
-			<div>
-				<input type="radio" id="sepia" name="theme-name" value="sepia">
-				<label for="sepia">Sepia</label></br>
-
-				<input type="radio" id="sepia-from-cuttlefish" name="theme-name" value="sepia-from-cuttlefish">
-				<label for="sepia-from-cuttlefish">Sepia from Cuttlefish</label></br>
-
-				<input type="radio" id="sepia-from-cuttlefish--serif" name="theme-name" value="sepia-from-cuttlefish--serif">
-				<label for="sepia-from-cuttlefish--serif">Sepia from Cuttlefish (serif)</label></br>
-
-				<input type="radio" id="sepia-from-cuttlefishs-algae" name="theme-name" value="sepia-from-cuttlefishs-algae">
-				<label for="sepia-from-cuttlefishs-algae">Sepia from Cuttlefish's Algae</label>
-			</div>
-
-		</form>
+		<label for="theme-select">Which theme are you tweaking?</label>
+		<select id="theme-select">
+			<option value="sepia">Sepia</option>
+			<option value="sepia-from-cuttlefish">Sepia from Cuttlefish</option>
+			<option value="sepia-from-cuttlefish--serif">Sepia from Cuttlefish (serif)</option>
+			<option value="sepia-from-cuttlefishs-algae">Sepia from Cuttlefish's Algae</option>
+		</select>
 	</header>
 	<section class="lines">
 		<h2>Lines of colors:</h2>
