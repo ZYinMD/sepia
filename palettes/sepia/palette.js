@@ -8,6 +8,17 @@ make lilac color for <?php?>, refer to google image pho
  */
 // this file will be used both by node and by browser
 
+const cssString = require('fs').readFileSync(
+	require('path').join(__dirname, 'style.css'),
+	'utf-8'
+	);
+const css = require('cssjson').toJSON(cssString);
+
+console.log(css.children['.grey']);
+
+
+
+
 const palette = {
 	silver: '#999c',
 	neutral: '#8b6d3ccc',
