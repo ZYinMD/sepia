@@ -1,0 +1,20 @@
+body {
+	padding-top: 30px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+body.sepia {
+	background-color: #fec;
+	font-family: Consolas, monospace;
+	font-size: 21px;
+
+}
+
+section {
+	margin-top: 50px;
+}
+
+span {
+	padding: 3px
+}

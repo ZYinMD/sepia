@@ -5,28 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Palettes</title>
-  <style>
-    body {
-      padding-top: 30px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    body.sepia {
-      background-color: #fec;
-      font-family: Consolas, monospace;
-      font-size: 21px;
-
-    }
-    section {
-      margin-top: 50px;
-    }
-
-    span {
-      padding: 3px
-    }
-  </style>
-
+  <link rel="stylesheet" href="utils/visualize.css">
+  <script defer src="utils/visualize.js"></script>
 </head>
 
 <body>
@@ -49,13 +29,5 @@
     <h2>Combination of colors:</h2>
   </section>
 </body>
-<script>
-  const dropdown = document.querySelector('#theme-select');
-  const body = document.querySelector('body');
-  body.className = dropdown.value = localStorage.getItem('selectedTheme') || 'sepia';
-  dropdown.addEventListener('change', event => {
-    localStorage.setItem('selectedTheme', body.className = event.target.value);
-  });
-</script>
 
 </html>
