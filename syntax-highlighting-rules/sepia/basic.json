@@ -25,8 +25,7 @@
 			"meta.function-call",
 			"meta.method-call",
 			"meta.function-call entity.name.function", // the function name of the function call, or a standalone function call in JS,
-			"meta.method-call entity.name.function", // similar as above
-			"support.function"
+			"meta.method-call entity.name.function" // similar as above
 		],
 		"settings": {
 			"foreground": "call"
@@ -63,7 +62,7 @@
 		}
 	},
 	{
-		"name": "reserved variables of languages: self, this, super, etc",
+		"name": "reserved variables of the language: self, this, super, etc",
 		"scope": [
 			"variable.language"
 		],
@@ -72,11 +71,12 @@
 		}
 	},
 	{
-		"name": "built-in variables of runtime: window, document, prototype, etc",
+		"name": "built-in functions and variables of runtime: require, window, document, process, etc",
 		"scope": [
 			"support.variable",
 			"support.class",
-			"support.constant"
+			"support.constant",
+			"support.function"
 		],
 		"settings": {
 			"foreground": "builtIn"
