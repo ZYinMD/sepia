@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const json = require('comment-json');
 
-function buildRules(themeName) {
-	const rulesDir = path.join(__dirname, '../syntax-highlighting-rules', themeName);
+function buildRules() {
+	const rulesDir = path.join(__dirname, '../syntax-highlighting-rules');
 	const ruleFiles = fs.readdirSync(rulesDir);
 	return ruleFiles.reduce((accumulator, fileName) => {
 		const filePath = path.join(rulesDir, fileName);
