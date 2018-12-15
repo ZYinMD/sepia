@@ -1,33 +1,28 @@
 const fs = require('fs');
-const json = require('comment-json'); // support of json with comments
-if (!process.argv[2])
-	throw "Please provide the name of the theme you're tweaking, options are: \n`npm visualize sepia`\n`npm visualize sepia-from-cuttlefish`";
+const json = require('comment-json'); // this module supports json with comments
 const themeName = process.argv[2];
+const officialThemeName = {
+  sepia: 'Sepia',
+  'sepia-from-cuttlefish': 'Sepia from Cuttlefish'
+}[themeName];
+
+if (!themeName || !officialThemeName)
+  throw "Please provide the name of the theme you're tweaking, options are: \n`npm visualize sepia`\n`npm visualize sepia-from-cuttlefish`";
+
 const pathToUserSettings = require('./path-to-user-settings.js'); // vscode's user settings json file
 
-const userSettings = json.parse(fs.readFileSync(pathToUserSettings));
-if (!userSettings)
-	throw "Failed to locate settings.json of VSCode, please check scripts/path-to-user-settings.js to find why";
+var userSettings
+try {
+  userSettings = json.parse(fs.readFileSync(pathToUserSettings));
+} catch (err) {
+  throw "Failed to locate settings.json of VSCode, please check scripts/path-to-user-settings.js to find why";
+}
 
-const palette = require(`../palettes/${themeName}/palette.js`);
-
-const rules = require('./buildRules.js')(themeName);
-if (!rules)
-	throw `Can't find valid rules in syntax-highlighting-rules/${themeName}`;
+const rules = require('./buildRules.js')();
+const palette = require('../palettes/_utils/lookup-css.js')(themeName);
 
 for (let i of rules)
-	i.settings.foreground = palette[i.settings.foreground];
-
-const officialThemeName = (() => {
-	switch (themeName) {
-		case 'sepia':
-			return 'Sepia';
-		case 'sepia-from-cuttle-fish':
-			return 'Sepia from Cuttlefish';
-		default:
-			throw `Unrecognized theme name "${themeName}"`;
-	}
-})();
+  i.settings.foreground = palette[i.settings.foreground];
 
 // create keys in userSettings if not existed:
 userSettings['editor.tokenColorCustomizations'] = userSettings['editor.tokenColorCustomizations'] || {};
