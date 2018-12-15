@@ -208,8 +208,7 @@
 		"name": "string",
 		"scope": [
 			"string",
-			"punctuation.definition.string.begin",
-			"punctuation.definition.string.end"
+			"punctuation.definition.string",
 		],
 		"settings": {
 			"foreground": "string"
