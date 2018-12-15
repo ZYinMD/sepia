@@ -35,6 +35,7 @@
     },
     "scripts": {
         "visualize": "node ./scripts/visualize.js",
+        "postvisualize": "printf 'For faster speed, you might want to run `node ./scripts/visualize.js` directly'",
         "postversion": "vsce pubilsh",
         "vscode:prepublish": "auto-changelog -p && git add CHANGELOG.md && git commit --amend --no-edit"
     },
