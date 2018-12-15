@@ -1,0 +1,139 @@
+.sepia .grey {
+  color: #222b;
+  color: #333b;
+  color: #334b;
+  color: #323a;
+  color: #102a;
+  color: #3239;
+  color: #2118;
+  color: #8d796b;
+}
+
+.sepia .neutral {
+  color: #8b6d3ccc;
+}
+
+.sepia .silver {
+  color: #888d;
+  color: #aaac;
+  color: #999d;
+  color: #999c;
+}
+
+.sepia .black {
+  color: #000;
+  color: #2d2d2d;
+}
+
+.sepia .pink {
+  color: #fd45ad;
+  color: #f7c;
+  color: #f08c;
+}
+
+.sepia .purple {
+  color: #9932cc;
+  color: #93bc;
+  color: #909a;
+}
+
+.sepia .magenta {
+  color: #b36e;
+  color: #bb3366d6;
+  color: #b36d;
+}
+
+.sepia .maroon {
+  color: #c10c;
+}
+
+.sepia .red {
+  color: #f00;
+}
+
+.sepia .russet {
+  color: #d1681d;
+  color: #c50e;
+  color: #c51d;
+}
+
+.sepia .rosy {
+  color: #da2d2dbb;
+  color: #eb582cdd;
+  color: #e52d;
+  color: #e53d;
+}
+
+.sepia .orange {
+  color: #f67a00;
+  color: #f77b00;
+  color: #f77b00e7;
+}
+
+.sepia .yellow {
+  color: #b82;
+  color: #971c;
+  color: #b93;
+  color: #a82d;
+  color: #a83e;
+  color: #bb9a38;
+  color: #b69235;
+  color: #b39330;
+  color: #b69235f5;
+  color: #c2a03a;
+  color: #b79533;
+}
+
+.sepia .tan {
+  color: #96733ccc;
+  color: #974c;
+  color: #963c;
+}
+
+.sepia .olive {
+  color: #890;
+}
+
+.sepia .green {
+  color: #094e;
+}
+
+.sepia .cyan {
+  color: #2a9;
+  color: #099e;
+  color: #20a195;
+  color: #30a195;
+}
+
+.sepia .blue {
+  color: #07ac;
+  color: #08ad;
+  color: #08bd;
+}
+
+.sepia .indigo {
+  color: #78b;
+  color: #67a;
+}
+
+.sepia .teal {
+  color: #088;
+}
+
+body {
+  padding-top: 30px;
+  background-color: #fceecc;
+  background-color: #fec;
+  font-family: Consolas, monospace;
+  font-size: 21px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-top: 50px;
+}
+
+span {
+  padding: 3px
+}
