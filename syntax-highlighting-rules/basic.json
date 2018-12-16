@@ -248,7 +248,7 @@
 			"punctuation.definition.comment" // punctuations were manually set to default, so punctuation comment need to be manually excluded
 		],
 		"settings": {
-			"foreground": "silver"
+			"foreground": "comment"
 		}
 	},
 	{
@@ -257,7 +257,7 @@
 			"invalid"
 		],
 		"settings": {
-			"foreground": "red"
+			"foreground": "invalid"
 		}
 	},
 	{

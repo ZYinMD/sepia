@@ -13,7 +13,7 @@
 			"punctuation.definition.tag source" // a very special case
 		],
 		"settings": {
-			"foreground": "blue"
+			"foreground": "tag"
 		}
 	},
 	{
@@ -22,17 +22,17 @@
 			"support.class.component.js"
 		],
 		"settings": {
-			"foreground": "cyan"
+			"foreground": "reactComponent"
 		}
 	},
 	{
-		"name": "class names",
+		"name": "html: class",
 		"scope": [
 			"meta.attribute.class string",
 			"entity.other.attribute-name.class" // css selector
 		],
 		"settings": {
-			"foreground": "green"
+			"foreground": "class"
 		}
 	},
 	{
@@ -42,16 +42,16 @@
 			"entity.other.attribute-name.id" // css selector
 		],
 		"settings": {
-			"foreground": "magenta"
+			"foreground": "id"
 		}
 	},
 	{
-		"name": "attribute names",
+		"name": "html: attributes",
 		"scope": [
 			"entity.other.attribute-name"
 		],
 		"settings": {
-			"foreground": "olive"
+			"foreground": "attribute"
 		}
 	},
 	{
