@@ -3,11 +3,15 @@ const json = require('comment-json'); // this module supports json with comments
 const themeName = process.argv[2];
 const officialThemeName = {
   sepia: 'Sepia',
-  'sepia-from-cuttlefish': 'Sepia from Cuttlefish'
+  cuttlefish: 'Sepia from Cuttlefish'
 }[themeName];
 
-if (!themeName || !officialThemeName)
-  throw "Please provide the name of the theme you're tweaking, options are: \n`npm visualize sepia`\n`npm visualize sepia-from-cuttlefish`";
+if (!themeName || !officialThemeName) {
+  console.error(`Please provide the name of the theme you're tweaking, options are:
+  "npm run visualize sepia" for the theme "Sepia",
+  "npm run visualize cuttlefish" for the theme "Sepia from Cuttlefish"`);
+  process.exit();
+}
 
 const pathToUserSettings = require('./path-to-user-settings.js'); // vscode's user settings json file
 
