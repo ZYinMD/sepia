@@ -31,6 +31,6 @@ for (let color of availableThemes[dropdown.value].availableColors) {
 		let B = `<span class="${i}">${i}</span>`;
 		combination.innerHTML += (A + B);
 	}
-	combinations.innerHTML += `<h2 class="${color}">${color}:</h2>`
+	combinations.innerHTML += `<h2 class="${color}">${color}:</h2>`;
 	combinations.append(combination);
 }
