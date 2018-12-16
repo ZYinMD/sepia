@@ -120,20 +120,6 @@
   color: #088;
 }
 
-body {
-  padding-top: 30px;
-  background-color: #fceecc;
-  background-color: #fec;
-  font-family: Consolas, monospace;
-  font-size: 21px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-section {
-  margin-top: 50px;
-}
-
-span {
-  padding: 3px
+body.sepia {
+	background-color: #fec;
 }

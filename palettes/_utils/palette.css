@@ -2,13 +2,8 @@ body {
 	padding-top: 30px;
 	max-width: 1000px;
 	margin: auto;
-}
-
-body.sepia {
-	background-color: #fec;
 	font-family: Consolas, monospace;
 	font-size: 21px;
-
 }
 
 section {
@@ -16,5 +11,29 @@ section {
 }
 
 span {
-	padding: 3px
+	padding-right: 3px;
+}
+
+p {
+	margin: 6px 0;
+}
+
+.combinations h2 {
+	margin-bottom: 5px;
+}
+
+.combinations p {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 13px;
+}
+
+h1 {
+	font-size: 23px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 21px;
+	font-weight: normal;
 }
