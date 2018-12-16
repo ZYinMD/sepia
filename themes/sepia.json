@@ -308,8 +308,7 @@
 				"meta.function-call",
 				"meta.method-call",
 				"meta.function-call entity.name.function",
-				"meta.method-call entity.name.function",
-				"support.function"
+				"meta.method-call entity.name.function"
 			],
 			"settings": {
 				"foreground": "#30a195"
@@ -346,7 +345,7 @@
 			}
 		},
 		{
-			"name": "reserved variables of languages: self, this, super, etc",
+			"name": "reserved variables of the language: self, this, super, etc",
 			"scope": [
 				"variable.language"
 			],
@@ -355,11 +354,12 @@
 			}
 		},
 		{
-			"name": "built-in variables of runtime: window, document, prototype, etc",
+			"name": "built-in functions and variables of runtime: require, window, document, process, etc",
 			"scope": [
 				"support.variable",
 				"support.class",
-				"support.constant"
+				"support.constant",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#088"
@@ -371,7 +371,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#78b"
+				"foreground": "#67a"
 			}
 		},
 		{
@@ -425,7 +425,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#78b"
+				"foreground": "#67a"
 			}
 		},
 		{
@@ -488,8 +488,7 @@
 			"name": "string",
 			"scope": [
 				"string",
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end"
+				"punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#b79533"
@@ -519,7 +518,7 @@
 				"punctuation.definition.variable.makefile"
 			],
 			"settings": {
-				"foreground": "#e53d"
+				"foreground": "#f77b00e7"
 			}
 		},
 		{
@@ -575,7 +574,7 @@
 				"meta.function.c"
 			],
 			"settings": {
-				"foreground": "#78b"
+				"foreground": "#67a"
 			}
 		},
 		{
@@ -704,7 +703,7 @@
 			}
 		},
 		{
-			"name": "class names",
+			"name": "html: class",
 			"scope": [
 				"meta.attribute.class string",
 				"entity.other.attribute-name.class"
@@ -724,7 +723,7 @@
 			}
 		},
 		{
-			"name": "attribute names",
+			"name": "html: attributes",
 			"scope": [
 				"entity.other.attribute-name"
 			],
@@ -823,7 +822,7 @@
 				"punctuation.section.embedded.end source.ruby"
 			],
 			"settings": {
-				"foreground": "#78b"
+				"foreground": "#67a"
 			}
 		},
 		{
@@ -862,5 +861,6 @@
 				"foreground": "#890"
 			}
 		}
+
 	]
 }
