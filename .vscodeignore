@@ -5,7 +5,7 @@
 # things needed only when developing the theme:
 node_modules
 snapshots
-pallettes
+palettes
 themes/references
 language-examples
 scripts
