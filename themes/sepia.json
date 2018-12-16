@@ -35,7 +35,7 @@
 		"editor.wordHighlightBorder": "#bbbbbb",
 		"editor.wordHighlightStrongBackground": "#fffdf550",
 		"editor.wordHighlightStrongBorder": "#bbbbbb",
-		"editorBracketMatch.background": "#31a13756",
+		"editorBracketMatch.background": "#43abca71",
 		"editorBracketMatch.border": "#00000000",
 		"editorCursor.foreground": "#333333",
 		"editorError.foreground": "#ff0000aa",
@@ -861,6 +861,5 @@
 				"foreground": "#890"
 			}
 		}
-
 	]
 }
