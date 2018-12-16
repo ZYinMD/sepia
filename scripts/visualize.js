@@ -8,8 +8,10 @@ const officialThemeName = {
 
 if (!themeName || !officialThemeName) {
   console.error(`Please provide the name of the theme you're tweaking, options are:
-  "npm run visualize sepia" for the theme "Sepia",
-  "npm run visualize cuttlefish" for the theme "Sepia from Cuttlefish"`);
+  For the theme "Sepia":
+    "npm run visualize sepia"
+  For the theme "Sepia from Cuttlefish":
+    "npm run visualize cuttlefish"`);
   process.exit();
 }
 
@@ -34,3 +36,5 @@ userSettings['editor.tokenColorCustomizations'][`[${officialThemeName}]`] = user
 
 userSettings['editor.tokenColorCustomizations'][`[${officialThemeName}]`].textMateRules = rules;
 fs.writeFileSync(pathToUserSettings, json.stringify(userSettings, null, 4));
+
+console.log('Success! The changes is already effective in your VSCode.');

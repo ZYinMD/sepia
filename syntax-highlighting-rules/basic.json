@@ -238,7 +238,7 @@
 			"punctuation.definition.variable.makefile"
 		],
 		"settings": {
-			"foreground": "regex"
+			"foreground": "operator"
 		}
 	},
 	{
