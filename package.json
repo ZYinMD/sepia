@@ -24,12 +24,12 @@
             {
                 "label": "Sepia",
                 "uiTheme": "vs",
-                "path": "./themes/sepia/sepia.json"
+                "path": "./themes/sepia.json"
             },
             {
                 "label": "Sepia from Cuttlefish",
                 "uiTheme": "vs-dark",
-                "path": "./themes/sepia-from-cuttlefish/sepia-from-cuttlefish.json"
+                "path": "./themes/sepia-from-cuttlefish.json"
             }
         ]
     },
