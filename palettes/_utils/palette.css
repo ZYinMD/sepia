@@ -6,10 +6,6 @@ body {
 	font-size: 21px;
 }
 
-section {
-	margin-top: 50px;
-}
-
 span {
 	padding-right: 3px;
 }
@@ -31,6 +27,7 @@ p {
 h1 {
 	font-size: 23px;
 	font-weight: normal;
+	margin-top: 40px;
 }
 
 h2 {

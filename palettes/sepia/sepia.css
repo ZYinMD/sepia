@@ -121,5 +121,6 @@
 }
 
 body.sepia {
-	background-color: #fec;
+  background-color: #fec;
+  color: black;
 }
