@@ -19,7 +19,8 @@
 	{
 		"name": "<?php?>",
 		"scope": [
-			"punctuation.section.embedded",
+			"punctuation.section.embedded.begin.php",
+			"punctuation.section.embedded.end.php",
 			"punctuation.section.embedded.end source.php",
 			"punctuation.section.embedded.end source.ruby" // this line should be in ruby.json, but for now
 		],
