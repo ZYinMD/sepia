@@ -1,20 +1,20 @@
-[{
-	"name": "edge cases", // edge cases taken from dracula official, will graduately mark them with color and take away from edge cases
-	"scope": [
-		"constant.other.symbol.hashkey.ruby",
-		"keyword.operator.dereference.java",
-		"keyword.operator.navigation.groovy",
-		"meta.scope.for-loop.shell punctuation.definition.string.begin",
-		"meta.scope.for-loop.shell punctuation.definition.string.end",
-		"meta.scope.for-loop.shell string",
-		"punctuation.section.embedded.begin.tsx",
-		"punctuation.section.embedded.end.tsx",
-		"punctuation.section.embedded.begin.jsx",
-		"punctuation.section.embedded.end.jsx",
-		"punctuation.separator.list.comma.css",
-		"constant.language.empty-list.haskell"
-	],
-	"settings": {
-		"foreground": "default"
+[
+	{
+		"name": "restore puntuation color, and some edge cases",
+		"scope": [
+			"constant.other.symbol.hashkey.ruby",
+			"keyword.operator.dereference.java",
+			"keyword.operator.navigation.groovy",
+			"meta.scope.for-loop.shell punctuation.definition.string.begin",
+			"meta.scope.for-loop.shell punctuation.definition.string.end",
+			"meta.scope.for-loop.shell string",
+			"punctuation.separator.list.comma.css",
+			"constant.language.empty-list.haskell",
+			// {} symbols insdei jsx:
+			"punctuation.section.embedded"
+		],
+		"settings": {
+			"foreground": "default"
+		}
 	}
-}]
+]
