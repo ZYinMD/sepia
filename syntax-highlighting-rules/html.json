@@ -62,5 +62,14 @@
 		"settings": {
 			"foreground": "default"
 		}
+	},
+	{
+		"name": "the & before HTML entity",
+		"scope": [
+			"punctuation.definition.entity"
+		],
+		"settings": {
+			"foreground": "constant"
+		}
 	}
 ]
