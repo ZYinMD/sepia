@@ -67,6 +67,7 @@ sepia.aliases = {
   curveball: 'indigo',
   invalid: 'red',
   deprecated: 'pink',
+  docstring:'tan',
   // html ↓
   tag: 'blue',
   class: 'green',

@@ -27,5 +27,15 @@
 		"settings": {
 			"foreground": "variable"
 		}
+	},
+	{
+		"name": "python: docstring",
+		"scope": [
+			"string.quoted.docstring",
+			"string.quoted.docstring punctuation.definition.string"
+		],
+		"settings": {
+			"foreground": "docstring"
+		}
 	}
 ]
