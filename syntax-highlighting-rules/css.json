@@ -24,9 +24,31 @@
 	},
 	{
 		"name": "CSS: @",
-		"scope": "keyword.control.at-rule",
+		"scope": [
+			"keyword.control.at-rule",
+			"keyword.control.at-rule punctuation.definition.keyword"
+		],
+		"settings": {
+			"foreground": "function"
+		}
+	},
+	{
+		"name": "CSS: import",
+		"scope": [
+			"keyword.control.at-rule.import",
+			"keyword.control.at-rule.import punctuation.definition.keyword"
+		],
 		"settings": {
 			"foreground": "module"
+		}
+	},
+	{
+		"name": "less and sass: variable @ symbol",
+		"scope": [
+			"variable punctuation.definition"
+		],
+		"settings": {
+			"foreground": "variable"
 		}
 	},
 	{
@@ -41,7 +63,8 @@
 		"scope": [
 			"constant.other.color.rgb-value",
 			"constant.other.rgb-value",
-			"support.constant.color"
+			"support.constant.color",
+			"keyword.other.unit.px" // the 'px' after a number
 		],
 		"settings": {
 			"foreground": "number"
