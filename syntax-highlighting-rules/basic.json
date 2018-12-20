@@ -173,7 +173,7 @@
 		}
 	},
 	{
-		"name": "conditional flow control", // only a few languages are able to enjoy this awesome feature, too bad
+		"name": "conditional flow control", // only a few languages are able to enjoy this separated color, too bad
 		"scope": [
 			"keyword.control.conditional",
 			"keyword.control.trycatch",
@@ -238,7 +238,7 @@
 			"punctuation.definition.variable.makefile"
 		],
 		"settings": {
-			"foreground": "operator"
+			"foreground": "interpolation"
 		}
 	},
 	{

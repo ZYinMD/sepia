@@ -68,7 +68,8 @@ cuttlefish.aliases = {
   curveball: 'indigo',
   invalid: 'tomato',
   deprecated: 'pink',
-  docstring:'copper',
+  docstring: 'copper',
+  interpolation: 'gold',
   // html & css ↓
   tag: 'blue',
   class: 'cream',
