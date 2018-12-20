@@ -611,9 +611,33 @@
 		},
 		{
 			"name": "CSS: @",
-			"scope": "keyword.control.at-rule",
+			"scope": [
+				"keyword.control.at-rule",
+				"keyword.control.at-rule punctuation.definition.keyword"
+			],
+			"settings": {
+				"foreground": "#094e"
+			}
+		},
+		{
+			"name": "CSS: import",
+			"scope": [
+				"keyword.control.at-rule.import",
+				"keyword.control.at-rule.import punctuation.definition.keyword"
+			],
 			"settings": {
 				"foreground": "#c10c"
+			}
+		},
+		{
+			"name": "less and sass: variable",
+			"scope": [
+				"variable.scss",
+				"variable.other.less",
+				"variable punctuation.definition"
+			],
+			"settings": {
+				"foreground": "#088"
 			}
 		},
 		{
@@ -628,7 +652,8 @@
 			"scope": [
 				"constant.other.color.rgb-value",
 				"constant.other.rgb-value",
-				"support.constant.color"
+				"support.constant.color",
+				"keyword.other.unit.px"
 			],
 			"settings": {
 				"foreground": "#f77b00e7"
@@ -645,7 +670,7 @@
 			}
 		},
 		{
-			"name": "edge cases",
+			"name": "restore puntuation color, and some edge cases",
 			"scope": [
 				"constant.other.symbol.hashkey.ruby",
 				"keyword.operator.dereference.java",
@@ -653,12 +678,9 @@
 				"meta.scope.for-loop.shell punctuation.definition.string.begin",
 				"meta.scope.for-loop.shell punctuation.definition.string.end",
 				"meta.scope.for-loop.shell string",
-				"punctuation.section.embedded.begin.tsx",
-				"punctuation.section.embedded.end.tsx",
-				"punctuation.section.embedded.begin.jsx",
-				"punctuation.section.embedded.end.jsx",
 				"punctuation.separator.list.comma.css",
-				"constant.language.empty-list.haskell"
+				"constant.language.empty-list.haskell",
+				"punctuation.section.embedded"
 			],
 			"settings": {
 				"foreground": "#8d796b"
@@ -741,6 +763,15 @@
 			}
 		},
 		{
+			"name": "the & before HTML entity",
+			"scope": [
+				"punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "#909a"
+			}
+		},
+		{
 			"name": "java: default color",
 			"scope": [
 				"source.java"
@@ -817,7 +848,8 @@
 		{
 			"name": "<?php?>",
 			"scope": [
-				"punctuation.section.embedded",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php",
 				"punctuation.section.embedded.end source.php",
 				"punctuation.section.embedded.end source.ruby"
 			],
@@ -850,6 +882,16 @@
 			],
 			"settings": {
 				"foreground": "#890"
+			}
+		},
+		{
+			"name": "python: docstring",
+			"scope": [
+				"string.quoted.docstring",
+				"string.quoted.docstring punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#963c"
 			}
 		},
 		{
