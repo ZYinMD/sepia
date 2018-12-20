@@ -37,4 +37,4 @@ userSettings['editor.tokenColorCustomizations'][`[${officialThemeName}]`] = user
 userSettings['editor.tokenColorCustomizations'][`[${officialThemeName}]`].textMateRules = rules;
 fs.writeFileSync(pathToUserSettings, json.stringify(userSettings, null, 4));
 
-console.log('Success! The changes is already effective in your VSCode.');
+console.log('Success! The changes has been effective in your VSCode.');

@@ -1,0 +1,11 @@
+[
+	{
+		"name": "lua: default",
+		"scope": [
+			"source.lua"
+		],
+		"settings": {
+			"foreground": ""
+		}
+	}
+]

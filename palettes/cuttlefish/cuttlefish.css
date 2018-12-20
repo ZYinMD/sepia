@@ -1,0 +1,127 @@
+.cuttlefish .translucent {
+  color: #9999;
+  color: #899a;
+}
+
+.cuttlefish .neutral {
+  color: #aab;
+}
+
+.cuttlefish .white {
+  color: #fffd;
+}
+
+.cuttlefish .cream {
+  color: #e2d984;
+  color: #dd8e;
+}
+
+.cuttlefish .gold {
+  color: #d0b48c;
+  color: #d3b387;
+  color: #dbb279;
+  color: #da7;
+}
+
+.cuttlefish .copper {
+  color: #bc8f8f;
+}
+
+.cuttlefish .rosy {
+  color: #f08080;
+  color: #f07780;
+  color: #e77;
+  color: #d88;
+}
+
+.cuttlefish .tomato {
+  color: #f86247;
+  color: #f64e;
+}
+
+
+.cuttlefish .orange {
+  color: #fa0;
+  color: #ea0;
+  color: #d92;
+  color: #db9d00;
+}
+
+.cuttlefish .yellow {
+  color: #ee0;
+=  color: #dd0;
+  color: #ee0b;
+  color: #cc0d;
+}
+
+.cuttlefish .lime {
+  color: #9c2;
+  color: #9c3e;
+}
+
+.cuttlefish .green {
+  color: #6aa35c;
+  color: #aabc8fee;
+  color: #aabc8fee;
+  color: #5b0e;
+}
+
+.cuttlefish .jade {
+  color: #00ca65;
+  color: #0b0;
+  color: #1a5;
+  color: #2bb479;
+  color: #2a6;
+  color: #2b7e;
+  color: #0b7d;
+  color: #0b7c;
+  color: #00b673dd;
+}
+
+.cuttlefish .blue {
+  color: #2cec;
+  color: #3dfc;
+  color: #1bee;
+  color: #2bde;
+  color: #1bde;
+  color: #5ded;
+  color: #5ced;
+}
+
+.cuttlefish .cyan {
+  color: #5bbc;
+}
+
+.cuttlefish .indigo {
+  color: #69fd;
+  color: #79fe;
+  color: #79f;
+  color: #8af;
+}
+
+.cuttlefish .violet {
+  color: #b4a2fa;
+  color: #a9e;
+  color: #a9ee;
+  color: #b9ee;
+}
+
+.cuttlefish .pink {
+  color: #e9c;
+  color: #d9d;
+  color: #e9ce;
+}
+
+.cuttlefish .pomegranate {
+  color: #FC3C83F0;
+  color: #ff4d82dd;
+  color: #e47d;
+  color: #e47e;
+  color: #f47d;
+  color: #f58c;
+}
+
+body.cuttlefish {
+  background-color: #003940;
+  color: white;
+}
