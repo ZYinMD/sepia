@@ -1,0 +1,74 @@
+.cuttlefish .black {
+  color: #bbb;
+}
+
+.cuttlefish .blue {
+  color: #5be;
+  color: #7df;
+}
+
+/* has to be very bright, because of the blue on green ls output in ubuntu for folders with permissions*/
+.cuttlefish .brightblack {
+  color: #eee;
+}
+
+.cuttlefish .brightblue {
+  color: #2bf;
+}
+
+.cuttlefish .brightcyan {
+  color: #8fe;
+}
+
+.cuttlefish .brightgreen {
+  color: #9f0;
+}
+
+.cuttlefish .brightmagenta {
+  color: #f9c;
+}
+
+.cuttlefish .brightred {
+  color: #f44;
+}
+
+.cuttlefish .brightwhite {
+  color: #eee;
+}
+
+.cuttlefish .brightyellow {
+  color: #ff0;
+}
+
+.cuttlefish .cyan {
+  color: #5da;
+}
+
+.cuttlefish .green {
+  color: #5c0;
+  color: #370;
+  /* has to be very dull, because of the blue on green ls output in ubuntu for folders with permissions */
+}
+
+
+.cuttlefish .magenta {
+  color: #f58;
+}
+
+.cuttlefish .red {
+  color: #ea3; /* since there's no orange in the palette, let's add some orange */
+}
+
+.cuttlefish .white {
+  color: #bbb;
+}
+
+.cuttlefish .yellow {
+  color: #dd2;
+}
+
+body.cuttlefish {
+  background-color: #132b2b;
+  color: white;
+  font-size: 15px;
+}
