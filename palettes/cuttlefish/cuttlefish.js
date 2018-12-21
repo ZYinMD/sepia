@@ -3,6 +3,7 @@
   salmon和orange在night light下过于接近, 考虑去掉salmon
   出现lint error时的红色波浪线颜色太深
   inactive tab的颜色需要比active要黑才行
+  activity bar太黄
 */
 
 // ★ this file will be read both by node and by browser ★
