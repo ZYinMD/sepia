@@ -4,6 +4,5 @@
 
 ### This theme is very new, being actively worked on.
 
-Expectant updates:
-- Before 2018-12-18: better syntax highlighting colors (dark theme)
-- Before 2018-12-22: better terminal colors (light theme)
+Next expectant updates:
+- Before 2018-12-24: better terminal colors for the light theme
