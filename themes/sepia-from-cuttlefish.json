@@ -175,6 +175,7 @@
 		"textLink.foreground": "#00b8b8",
 		"titleBar.activeBackground": "#004046",
 		"titleBar.activeForeground": "#e0dab9",
+		"walkThrough.embeddedEditorBackground": "#00000014",
 		"widget.shadow": "#000000",
 		//"breadcrumb.activeSelectionForeground": "#ede9d5",
 		//"breadcrumb.background": "#003a40",
