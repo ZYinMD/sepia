@@ -1,0 +1,72 @@
+.sepia .black {
+  color: #444;
+}
+
+.sepia .blue {
+  color: #07a;
+}
+/* has to be very bright, because of the blue on green ls output in ubuntu for folders with permissions*/
+
+.sepia .brightblack {
+  color: #000;
+}
+
+.sepia .brightblue {
+  color: #09d;
+}
+
+.sepia .brightcyan {
+  color: #066;
+}
+
+.sepia .brightgreen {
+  color: #094;
+}
+
+.sepia .brightmagenta {
+  color: #f28e;
+}
+
+.sepia .brightred {
+  color: #f00;
+}
+
+.sepia .brightwhite {
+  color: #fff;
+}
+
+.sepia .brightyellow {
+  color: #ff0;
+}
+
+.sepia .cyan {
+  color: #098;
+}
+
+.sepia .green {
+  color: #9a0;
+  /* has to be very light, because of the blue on green ls output in ubuntu for folders with permissions */
+}
+
+.sepia .magenta {
+  color: #a0a;
+}
+
+.sepia .red {
+  color: #c10e; /* since there's no orange in the palette, let's add some orange */
+}
+
+.sepia .white {
+  color: #888;
+}
+
+.sepia .yellow {
+  color: #a80;
+  color: #b48802;
+}
+
+body.sepia {
+  background-color: #eadcba;
+  color: black;
+  font-size: 15px;
+}

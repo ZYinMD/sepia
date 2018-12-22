@@ -4,6 +4,7 @@
   出现lint error时的红色波浪线颜色太深
   inactive tab的颜色需要比active要黑才行
   activity bar太黄
+  check the debug color of cuttlefish
 */
 
 // ★ this file will be read both by node and by browser ★
