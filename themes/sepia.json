@@ -165,7 +165,6 @@
 		"titleBar.activeForeground": "#333333",
 		"titleBar.inactiveBackground": "#e0d2b6",
 		"titleBar.inactiveForeground": "#aaaaaa",
-		"walkThrough.embeddedEditorBackground": "#00000014",
 		"widget.shadow": "#777777",
 		//"activityBarBadge.foreground": "#ffffff",
 		//"breadcrumb.activeSelectionForeground": "#444444",
@@ -242,10 +241,11 @@
 		//"settings.textInputForeground": "#333333",
 		//"statusBar.debuggingForeground": "#666666",
 		//"tab.activeForeground": "#333333",
+		//"tab.inactiveForeground": "#333333b3",
 		//"tab.inactiveModifiedBorder": "#00b3b380",
 		//"tab.unfocusedActiveForeground": "#333333b3",
 		//"tab.unfocusedActiveModifiedBorder": "#00b3b3b3",
-		//"tab.unfocusedInactiveForeground": "#586e7580",
+		//"tab.unfocusedInactiveForeground": "#33333359",
 		//"tab.unfocusedInactiveModifiedBorder": "#00b3b340",
 		//"terminal.background": "#fdf3de",
 		//"terminal.border": "#f4e3c1",
@@ -728,7 +728,8 @@
 			"name": "html: class",
 			"scope": [
 				"meta.attribute.class string",
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.class",
+				"entity.other.attribute-name.class punctuation.definition.entity"
 			],
 			"settings": {
 				"foreground": "#094e"
@@ -738,7 +739,8 @@
 			"name": "html: id",
 			"scope": [
 				"meta.attribute.id string",
-				"entity.other.attribute-name.id"
+				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.id punctuation.definition.entity"
 			],
 			"settings": {
 				"foreground": "#b36d"
@@ -817,6 +819,13 @@
 			"settings": {
 				"foreground": "#890"
 			}
+		},
+		{
+			"name": "lua: default",
+			"scope": [
+				"source.lua"
+			],
+			"settings": {}
 		},
 		{
 			"name": "entity.name.section",
