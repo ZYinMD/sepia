@@ -462,7 +462,7 @@
 				"switch-expression.expr keyword.control.switch"
 			],
 			"settings": {
-				"foreground": "#2d2d2d"
+				"foreground": "#222"
 			}
 		},
 		{
