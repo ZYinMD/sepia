@@ -17,11 +17,12 @@ if (!themeName || !officialThemeName) {
 
 const pathToUserSettings = require('./path-to-user-settings.js'); // vscode's user settings json file
 
-var userSettings
+var userSettings;
 try {
   userSettings = json.parse(fs.readFileSync(pathToUserSettings));
 } catch (err) {
-  throw "Failed to locate settings.json of VSCode, please check scripts/path-to-user-settings.js to find why";
+  console.error("Failed to load the settings.json of VSCode, check it for trailing commas or syntax errors (comments are allowed), if you're sure settings.json is valid json, then check scripts/path-to-user-settings.js");
+  throw(err);
 }
 
 const rules = require('./buildRules.js')();
