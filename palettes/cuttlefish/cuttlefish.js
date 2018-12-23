@@ -1,15 +1,13 @@
 /*
 问题:
-  salmon和orange在night light下过于接近, 考虑去掉salmon
   出现lint error时的红色波浪线颜色太深
-  inactive tab的颜色需要比active要黑才行
-  activity bar太黄
-  check the debug color of cuttlefish
+  activity bar的图标太黄
+  行号太黄
 */
 
 // ★ this file will be read both by node and by browser ★
 
-const cuttlefish = {};
+const cuttlefish = {};;;;;;;;;
 
 /**
  * all available colors of this theme
