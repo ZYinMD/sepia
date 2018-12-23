@@ -1,13 +1,6 @@
-/*
-问题:
-  出现lint error时的红色波浪线颜色太深
-  activity bar的图标太黄
-  行号太黄
-*/
-
 // ★ this file will be read both by node and by browser ★
 
-const cuttlefish = {};;;;;;;;;
+const cuttlefish = {};
 
 /**
  * all available colors of this theme
@@ -34,7 +27,7 @@ cuttlefish.availableColors = [
   'cyan',
   'indigo',
   'violet',
-  'pomegranate',
+  'magenta',
 ];
 
 /**
@@ -51,7 +44,7 @@ cuttlefish.aliases = {
   call: 'lime',
   parameter: 'cream',
   argument: 'jade',
-  module: 'pomegranate',
+  module: 'magenta',
   declaration: 'blue',
   string: 'yellow',
   reserved: 'gold',
@@ -59,8 +52,8 @@ cuttlefish.aliases = {
   inherited: 'cyan',
   storage: 'cyan',
   number: 'orange',
-  operator: 'pomegranate',
-  control: 'pomegranate',
+  operator: 'magenta',
+  control: 'magenta',
   flow: 'white',
   constant: 'violet',
   regex: 'rosy',
