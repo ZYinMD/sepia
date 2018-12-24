@@ -60,10 +60,10 @@ sepia.aliases = {
   constant: 'purple',
   regex: 'rosy',
   keyword: 'blue',
-  curveball: 'indigo',
+  curveball: 'russet',
   invalid: 'red',
   deprecated: 'pink',
-  docstring: 'tan',
+  docstring: 'russet',
   interpolation: 'orange',
   // html css ↓
   tag: 'blue',
