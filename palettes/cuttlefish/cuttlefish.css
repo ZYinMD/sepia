@@ -64,6 +64,7 @@
   color: #aabc8fee;
   color: #aabc8fee;
   color: #5b0e;
+  color: #5b0;
 }
 
 .cuttlefish .jade {
@@ -76,6 +77,10 @@
   color: #0b7d;
   color: #0b7c;
   color: #00b673dd;
+}
+
+.cuttlefish .jader {
+  color: #0b7;
 }
 
 .cuttlefish .blue {
