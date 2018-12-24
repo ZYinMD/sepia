@@ -64,7 +64,7 @@ sepia.aliases = {
   invalid: 'red',
   deprecated: 'pink',
   docstring: 'russet',
-  interpolation: 'orange',
+  interpolation: 'rosy',
   // html css ↓
   tag: 'blue',
   class: 'green',
