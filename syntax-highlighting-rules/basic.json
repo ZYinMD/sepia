@@ -85,7 +85,8 @@
 	{
 		"name": "function parameter declaration",
 		"scope": [
-			"variable.parameter"
+			"variable.parameter",
+			"entity.name.variable.parameter"
 		],
 		"settings": {
 			"foreground": "parameter"
