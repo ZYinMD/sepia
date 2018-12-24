@@ -1,3 +1,5 @@
+// In some languages (e.g. java and go), variable assignment is scoped as variable, but variable usage is not scoped. In these languages, I change the default to variable, then change the assignment to a brighter version of variable.
+
 [
 	{
 		"name": "java: default color",
@@ -6,6 +8,15 @@
 		],
 		"settings": {
 			"foreground": "variable"
+		}
+	},
+	{
+		"name": "java: variable declaration",
+		"scope": [
+			"variable.other.definition.java"
+		],
+		"settings": {
+			"foreground": "assignment"
 		}
 	},
 	{
