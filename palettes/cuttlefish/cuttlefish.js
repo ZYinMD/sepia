@@ -71,6 +71,8 @@ cuttlefish.aliases = {
   id: 'rosy',
   attribute: 'jade',
   reactComponent: 'cyan',
+  atRule: 'lime',
+  cssVariable: 'gold',
 };
 
 // for node only ↓

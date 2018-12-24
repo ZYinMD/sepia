@@ -29,7 +29,7 @@
 			"keyword.control.at-rule punctuation.definition.keyword"
 		],
 		"settings": {
-			"foreground": "function"
+			"foreground": "atRule"
 		}
 	},
 	{
@@ -50,7 +50,7 @@
 			"variable punctuation.definition" // the @ symbol
 		],
 		"settings": {
-			"foreground": "reserved"
+			"foreground": "cssVariable"
 		}
 	},
 	{

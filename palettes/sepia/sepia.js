@@ -65,12 +65,14 @@ sepia.aliases = {
   deprecated: 'pink',
   docstring: 'tan',
   interpolation: 'orange',
-  // html ↓
+  // html css ↓
   tag: 'blue',
   class: 'green',
   id: 'magenta',
   attribute: 'olive',
   reactComponent: 'cyan',
+  atRule: 'maroon',
+  cssVariable: 'rosy',
 };
 
 // for node only ↓
