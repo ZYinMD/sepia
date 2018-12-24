@@ -9,6 +9,24 @@
 		}
 	},
 	{
+		"name": "go: variable assignment",
+		"scope": [
+			"variable.other.assignment.go"
+		],
+		"settings": {
+			"foreground": "assignment"
+		}
+	},
+	{
+		"name": "go: function call",
+		"scope": [
+			"support.function.go"
+		],
+		"settings": {
+			"foreground": "call"
+		}
+	},
+	{
 		"name": "go: import(string)",
 		"scope": [
 			"string entity.name.import.go"
