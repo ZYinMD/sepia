@@ -319,7 +319,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#088"
+				"foreground": "#780"
 			}
 		},
 		{
@@ -692,6 +692,24 @@
 			],
 			"settings": {
 				"foreground": "#890"
+			}
+		},
+		{
+			"name": "go: variable assignment",
+			"scope": [
+				"variable.other.assignment.go"
+			],
+			"settings": {
+				"foreground": "#780"
+			}
+		},
+		{
+			"name": "go: function call",
+			"scope": [
+				"support.function.go"
+			],
+			"settings": {
+				"foreground": "#30a195"
 			}
 		},
 		{
