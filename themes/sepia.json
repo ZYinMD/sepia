@@ -367,7 +367,8 @@
 		{
 			"name": "function parameter declaration",
 			"scope": [
-				"variable.parameter"
+				"variable.parameter",
+				"entity.name.variable.parameter"
 			],
 			"settings": {
 				"foreground": "#67a"
@@ -424,7 +425,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#67a"
+				"foreground": "#b40b"
 			}
 		},
 		{
@@ -504,7 +505,7 @@
 				"constant.character.escape.backslash.regexp"
 			],
 			"settings": {
-				"foreground": "#e53d"
+				"foreground": "#e44d"
 			}
 		},
 		{
@@ -615,7 +616,7 @@
 				"keyword.control.at-rule punctuation.definition.keyword"
 			],
 			"settings": {
-				"foreground": "#094e"
+				"foreground": "#c10c"
 			}
 		},
 		{
@@ -636,7 +637,7 @@
 				"variable punctuation.definition"
 			],
 			"settings": {
-				"foreground": "#088"
+				"foreground": "#e44d"
 			}
 		},
 		{
@@ -800,6 +801,15 @@
 			}
 		},
 		{
+			"name": "java: variable declaration",
+			"scope": [
+				"variable.other.definition.java"
+			],
+			"settings": {
+				"foreground": "#780"
+			}
+		},
+		{
 			"name": "java: arguments",
 			"scope": [
 				"meta.function-call.java",
@@ -880,7 +890,7 @@
 				"punctuation.section.embedded.end source.ruby"
 			],
 			"settings": {
-				"foreground": "#67a"
+				"foreground": "#b40b"
 			}
 		},
 		{
@@ -917,7 +927,7 @@
 				"string.quoted.docstring punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#963c"
+				"foreground": "#b40b"
 			}
 		},
 		{
