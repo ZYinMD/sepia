@@ -1,9 +1,3 @@
-/*
-目前问题:
-unsure现在alias到了magenta, 考虑改成一个深绿色
-如果找到合适的深绿色, 把extended class也改成深绿色, 因为现在和xxx extend xxx的extend是teal, 颜色相邻。另外extended class和class一个绿一个深绿也很不错
-
- */
 // ★ this file will be read both by node and by browser ★
 const sepia = {};
 
@@ -29,6 +23,7 @@ sepia.availableColors = [
   'yellow',
   'tan',
   'olive',
+  'jungle',
   'green',
   'cyan',
   'blue',
@@ -47,6 +42,7 @@ sepia.aliases = {
   variable: 'olive',
   property: 'olive',
   function: 'green',
+  assignment: 'jungle',
   call: 'cyan',
   parameter: 'indigo',
   argument: 'olive',
@@ -55,7 +51,7 @@ sepia.aliases = {
   string: 'yellow',
   reserved: 'teal',
   builtIn: 'teal',
-  inherited: 'teal',
+  inherited: 'jungle',
   storage: 'teal',
   number: 'orange',
   operator: 'orange',
