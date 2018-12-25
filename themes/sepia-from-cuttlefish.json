@@ -32,7 +32,9 @@
 		"editor.selectionBackground": "#00ff8833",
 		"editor.selectionHighlightBackground": "#00000000",
 		"editor.selectionHighlightBorder": "#888888",
-		"editor.snippetTabstopHighlightBackground": "#88888888",
+		"editor.snippetFinalTabstopHighlightBorder": "#777777",
+		"editor.snippetTabstopHighlightBackground": "#00000000",
+		"editor.snippetTabstopHighlightBorder": "#666666",
 		"editor.wordHighlightBackground": "#ffffff33",
 		"editor.wordHighlightBorder": "#888888",
 		"editor.wordHighlightStrongBackground": "#ffffff33",
@@ -191,7 +193,6 @@
 		//"editor.focusedStackFrameHighlightBackground": "#7abd7a4d",
 		//"editor.inactiveSelectionBackground": "#00ff881a",
 		//"editor.lineHighlightBorder": "#282828",
-		//"editor.snippetFinalTabstopHighlightBorder": "#525252",
 		//"editor.stackFrameHighlightBackground": "#ffff0033",
 		//"editorActiveLineNumber.foreground": "#c6c6c6",
 		//"editorCodeLens.foreground": "#999999",
@@ -709,7 +710,7 @@
 				"variable.other.assignment.go"
 			],
 			"settings": {
-				"foreground": "#0b7"
+				"foreground": "#00b673f2"
 			}
 		},
 		{
@@ -814,7 +815,7 @@
 				"variable.other.definition.java"
 			],
 			"settings": {
-				"foreground": "#0b7"
+				"foreground": "#00b673f2"
 			}
 		},
 		{

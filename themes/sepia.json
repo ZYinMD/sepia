@@ -30,7 +30,9 @@
 		"editor.selectionBackground": "#00b94d3a",
 		"editor.selectionHighlightBackground": "#00000000",
 		"editor.selectionHighlightBorder": "#999999",
-		"editor.snippetTabstopHighlightBackground": "#ffffffbb",
+		"editor.snippetFinalTabstopHighlightBorder": "#777777",
+		"editor.snippetTabstopHighlightBackground": "#00000000",
+		"editor.snippetTabstopHighlightBorder": "#cccccc",
 		"editor.wordHighlightBackground": "#fffdf550",
 		"editor.wordHighlightBorder": "#bbbbbb",
 		"editor.wordHighlightStrongBackground": "#fffdf550",
@@ -179,7 +181,6 @@
 		//"editor.focusedStackFrameHighlightBackground": "#cee7ce73",
 		//"editor.inactiveSelectionBackground": "#00b94d1d",
 		//"editor.lineHighlightBorder": "#eeeeee",
-		//"editor.snippetFinalTabstopHighlightBorder": "#0a326480",
 		//"editor.stackFrameHighlightBackground": "#ffff6673",
 		//"editorActiveLineNumber.foreground": "#0b216f",
 		//"editorCodeLens.foreground": "#999999",
@@ -505,7 +506,7 @@
 				"constant.character.escape.backslash.regexp"
 			],
 			"settings": {
-				"foreground": "#e44d"
+				"foreground": "#e44c"
 			}
 		},
 		{
@@ -518,7 +519,7 @@
 				"punctuation.definition.variable.makefile"
 			],
 			"settings": {
-				"foreground": "#f77b00e7"
+				"foreground": "#e44c"
 			}
 		},
 		{
@@ -637,7 +638,7 @@
 				"variable punctuation.definition"
 			],
 			"settings": {
-				"foreground": "#e44d"
+				"foreground": "#e44c"
 			}
 		},
 		{
