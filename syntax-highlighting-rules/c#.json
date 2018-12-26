@@ -1,0 +1,29 @@
+[
+	{
+		"name": "c#: variable assignment",
+		"scope": [
+      "entity.name.variable.local.cs"
+		],
+		"settings": {
+			"foreground": "assignment"
+		}
+	},
+	{
+		"name": "c#: function name", // the function definition and function call are the same scope in c#, function definition is too bright to appear so often
+		"scope": [
+      "entity.name.function.cs"
+		],
+		"settings": {
+			"foreground": "functionAndCall"
+		}
+	},
+	{
+		"name": "c#: new", // it's an edge case, I like new to be the same color as control
+		"scope": [
+      "keyword.other.new.cs"
+		],
+		"settings": {
+			"foreground": "control"
+		}
+	}
+]
