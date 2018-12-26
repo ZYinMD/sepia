@@ -1,0 +1,25 @@
+[
+  {
+    "name": "json: key name",
+    "scope": [
+      "support.type.property-name.json",
+      "punctuation.support.type.property-name.begin.json",
+      "punctuation.support.type.property-name.end.json"
+    ],
+    "settings": {
+      "foreground": "jader"
+    }
+  },
+  {
+    "name": "json: string value",
+    "scope": [
+      "string.quoted.double.json",
+      "punctuation.definition.string.begin.json",
+      "punctuation.definition.string.end.json"
+
+    ],
+    "settings": {
+      "foreground": "jsonString"
+    }
+  }
+]
