@@ -25,7 +25,7 @@
 			"punctuation.section.embedded.end source.ruby" // this line should be in ruby.json, but for now
 		],
 		"settings": {
-			"foreground": "curveball"
+			"foreground": "php"
 		}
 	}
 ]
