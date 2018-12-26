@@ -61,12 +61,12 @@
 		}
 	},
 	{
-		"name": "color values",
+		"name": "CSS: color values and sizing units",
 		"scope": [
 			"constant.other.color.rgb-value",
 			"constant.other.rgb-value",
 			"support.constant.color",
-			"keyword.other.unit.px" // the 'px' after a number
+			"keyword.other.unit"
 		],
 		"settings": {
 			"foreground": "number"
