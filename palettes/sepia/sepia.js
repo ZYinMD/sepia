@@ -62,8 +62,8 @@ sepia.aliases = {
   // keywords:
   reserved: 'green', // self, this, etc
   storage: 'teal', // static, public, private, etc
-  inherited: 'oliver', // inherited class
-  builtIn: 'gold', // built-in functions and methods, usually a call
+  inherited: 'russet', // inherited class
+  builtIn: 'teal', // built-in functions and methods, usually a call
   curveball: 'russet', // scope "support.type", often miscellaneous legal stuff
   otherKeywords: 'blue', // keywords scoped as "keyword.other.xxx", including things like get, set in c#
 
@@ -80,7 +80,7 @@ sepia.aliases = {
   regex: 'rosy',
   invalid: 'red',
   deprecated: 'pink',
-  docstring: 'copper',
+  docstring: 'russet',
 
   // html css ↓
   tag: 'blue',
@@ -93,7 +93,7 @@ sepia.aliases = {
   cssVariable: 'rosy',
 
   // json:
-  jsonKey: 'lime',
+  jsonKey: 'olive',
   jsonString: 'yellow',
 
   // php:

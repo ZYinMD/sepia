@@ -320,7 +320,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#780"
+				"foreground": "#b40b"
 			}
 		},
 		{
@@ -329,7 +329,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -341,7 +341,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -350,7 +350,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#088"
+				"foreground": "#094e"
 			}
 		},
 		{
@@ -405,7 +405,9 @@
 		{
 			"name": "var, const, let, int, bool, char, func, function, class, def",
 			"scope": [
-				"storage.type"
+				"storage.type",
+				"keyword.type",
+				"punctuation.definition.annotation"
 			],
 			"settings": {
 				"foreground": "#08bd"
@@ -560,13 +562,40 @@
 			}
 		},
 		{
+			"name": "c#: variable assignment",
+			"scope": [
+				"source.cs entity.name.variable"
+			],
+			"settings": {
+				"foreground": "#829300"
+			}
+		},
+		{
+			"name": "c#: function name",
+			"scope": [
+				"entity.name.function.cs"
+			],
+			"settings": {
+				"foreground": "#094e"
+			}
+		},
+		{
+			"name": "c#: new",
+			"scope": [
+				"keyword.other.new.cs"
+			],
+			"settings": {
+				"foreground": "#c10c"
+			}
+		},
+		{
 			"name": "c: default color",
 			"scope": [
 				"source.c",
 				"source.cpp"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -584,7 +613,7 @@
 				"meta.function-call.c"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -594,7 +623,7 @@
 				"support.type.vendored.property-name"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -649,12 +678,12 @@
 			}
 		},
 		{
-			"name": "color values",
+			"name": "CSS: color values and sizing units",
 			"scope": [
 				"constant.other.color.rgb-value",
 				"constant.other.rgb-value",
 				"support.constant.color",
-				"keyword.other.unit.px"
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#f77b00e7"
@@ -693,7 +722,7 @@
 				"source.go"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -702,7 +731,7 @@
 				"variable.other.assignment.go"
 			],
 			"settings": {
-				"foreground": "#780"
+				"foreground": "#829300"
 			}
 		},
 		{
@@ -771,7 +800,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -798,7 +827,7 @@
 				"source.java"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -807,7 +836,7 @@
 				"variable.other.definition.java"
 			],
 			"settings": {
-				"foreground": "#780"
+				"foreground": "#829300"
 			}
 		},
 		{
@@ -817,7 +846,7 @@
 				"meta.method-call.java"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -826,7 +855,7 @@
 				"storage.modifier.import"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -845,7 +874,27 @@
 				"support.variable.property"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
+			}
+		},
+		{
+			"name": "json: key name",
+			"scope": [
+				"support.type.property-name.json",
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json"
+			],
+			"settings": {}
+		},
+		{
+			"name": "json: string value",
+			"scope": [
+				"string.quoted.double.json",
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json"
+			],
+			"settings": {
+				"foreground": "#b79533"
 			}
 		},
 		{
@@ -870,7 +919,7 @@
 				"punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -879,7 +928,7 @@
 				"variable.language punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#088"
+				"foreground": "#094e"
 			}
 		},
 		{
@@ -891,7 +940,7 @@
 				"punctuation.section.embedded.end source.ruby"
 			],
 			"settings": {
-				"foreground": "#b40b"
+				"foreground": "#67a"
 			}
 		},
 		{
@@ -900,7 +949,7 @@
 				"source.python"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -909,7 +958,7 @@
 				"meta.function-call.arguments"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -918,7 +967,7 @@
 				"meta.function-call.arguments meta.function-call"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		},
 		{
@@ -937,7 +986,7 @@
 				"punctuation.definition.variable.shell"
 			],
 			"settings": {
-				"foreground": "#890"
+				"foreground": "#8a9b00"
 			}
 		}
 	]
