@@ -2,7 +2,7 @@
 	{
 		"name": "c#: variable assignment",
 		"scope": [
-      "entity.name.variable.local.cs"
+		"source.cs entity.name.variable"
 		],
 		"settings": {
 			"foreground": "assignment"
