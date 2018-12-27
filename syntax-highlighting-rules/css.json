@@ -6,7 +6,7 @@
 			"support.type.vendored.property-name" // -webkit-
 		],
 		"settings": {
-			"foreground": "property"
+			"foreground": "cssProperty"
 		}
 	},
 	{
