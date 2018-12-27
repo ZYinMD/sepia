@@ -1,3 +1,9 @@
+/*
+Do not put comments in this file, until more experiments to understand the behavior of `npm cssjson`
+
+Now it seems that comments may only be put on the same line as a color value if that line is the last of its curly braces. Comments on previous lines will render the lines below it useless
+*/
+
 .sepia .grey {
   color: #222b;
   color: #333b;
@@ -96,11 +102,12 @@
 
 .sepia .olive {
   color: #890;
+  color: #8a9b00;
 }
 
 .sepia .oliver {
-  color: #168525;
   color: #780;
+  color: #829300;
 }
 
 .sepia .green {

@@ -1,26 +1,21 @@
-.cuttlefish .translucent {
-  color: #9999;
-  color: #899a;
+/*
+Do not put comments in this file, until more experiments to understand the behavior of `npm cssjson`
+
+Now it seems that comments may only be put on the same line as a color value if that line is the last of its curly braces. Comments on previous lines will render the lines below it useless
+*/
+
+
+.cuttlefish .white {
+  color: #fffd;
 }
 
 .cuttlefish .neutral {
   color: #aab;
 }
 
-.cuttlefish .white {
-  color: #fffd;
-}
-
-.cuttlefish .cream {
-  color: #e2d984;
-  color: #dd8e;
-}
-
-.cuttlefish .gold {
-  color: #d0b48c;
-  color: #d3b387;
-  color: #dbb279;
-  color: #da7;
+.cuttlefish .translucent {
+  color: #9]999;
+  color: #899a;
 }
 
 .cuttlefish .copper {
@@ -34,29 +29,74 @@
   color: #d88;
 }
 
+.cuttlefish .pink {
+  color: #e9c;
+  color: #d9d;
+  color: #e9ce;
+  color: #e9cd;
+  color: #fdc5e8d5;
+  color: #d8a6a6
+}
+
+.cuttlefish .magenta {
+  color: #FC3C83F0;
+  color: #ff4d82dd;
+  color: #e47e;
+  color: #f47d;
+  color: #e47d;
+  color: #e43a67dd;
+  color: #e03a67dd;
+}
+
 .cuttlefish .red {
   color: #f86247;
   color: #f64e;
 }
-
 
 .cuttlefish .orange {
   color: #fa0;
   color: #ea0;
   color: #d92;
   color: #db9d00;
+  color: #e4a300;
+}
+
+.cuttlefish .gold {
+  color: #d0b48c;
+  color: #d3b387;
+  color: #dbb279;
+  color: #c99867;
+  color: #da7e;
+  color: #e3a877dd;
+  color: #da7;
+}
+
+.cuttlefish .cream {
+  color: #e2d984;
+  color: #dd8e;
+  color: #ee9d;
+  color: #dd9e;
 }
 
 .cuttlefish .yellow {
   color: #ee0;
-  color: #dd0;
   color: #ee0b;
-  color: #cc0d;
+  color: #dd0c;
+  color: #dd0b;
+  color: #ed0b;
 }
 
 .cuttlefish .lime {
   color: #9c2;
   color: #9c3e;
+  color: #8c3d;
+  color: #8c3e;
+  color: #9c3d;
+}
+
+.cuttlefish .aqua {
+  color: #68d492d3;
+  color: #86dbc9e0;
 }
 
 .cuttlefish .green {
@@ -64,7 +104,7 @@
   color: #aabc8fee;
   color: #aabc8fee;
   color: #5b0e;
-  color: #5b0;
+  color: #3b0;
 }
 
 .cuttlefish .jade {
@@ -76,11 +116,14 @@
   color: #2b7e;
   color: #0b7d;
   color: #0b7c;
-  color: #00b673dd;
+  color: #00b676dc;
+  color: #00aa76dc;
+  color: #0a7d;
 }
 
 .cuttlefish .jader {
-  color: #00b673f2;
+  color: #00b573f2;
+  color: #0a7e;
 }
 
 .cuttlefish .blue {
@@ -94,7 +137,10 @@
 }
 
 .cuttlefish .cyan {
+  color: #31c4b2da;
+  color: #74ccc2da;
   color: #5bbc;
+  color: #5bbb;
 }
 
 .cuttlefish .indigo {
@@ -109,21 +155,10 @@
   color: #a9e;
   color: #a9ee;
   color: #b9ee;
-}
-
-.cuttlefish .pink {
-  color: #e9c;
-  color: #d9d;
-  color: #e9ce;
-}
-
-.cuttlefish .magenta {
-  color: #FC3C83F0;
-  color: #ff4d82dd;
-  color: #f58c;
-  color: #f47d;
-  color: #e47e;
-  color: #e43a67dd;
+  color: #b086f0;
+  color: #b9e;
+  color: #9375d4e0;
+  color: #a9e;
 }
 
 body.cuttlefish {

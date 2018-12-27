@@ -37,42 +37,67 @@ sepia.availableColors = [
  * aliases are strongly encouraged, as color names affect all other themes that you're not currently tweaking
  */
 sepia.aliases = {
+
   default: 'grey',
   comment: 'silver',
+  string: 'yellow',
+  declaration: 'blue',
+
+  // variables related:
   variable: 'olive',
   property: 'olive',
-  function: 'green',
+  argument: 'olive',
   assignment: 'oliver',
+
+  /**
+   * oliver needs to be lighter, more close to olive, and pick a new color for inherited
+   */
+
+  // functions related:
+  function: 'green',
   call: 'cyan',
   parameter: 'indigo',
-  argument: 'olive',
+  functionAndCall: 'green', // in some languages like c#, function declaration and function call are the same scope
+
+  // keywords:
+  reserved: 'green', // self, this, etc
+  storage: 'teal', // static, public, private, etc
+  inherited: 'oliver', // inherited class
+  builtIn: 'gold', // built-in functions and methods, usually a call
+  curveball: 'russet', // scope "support.type", often miscellaneous legal stuff
+  otherKeywords: 'blue', // keywords scoped as "keyword.other.xxx", including things like get, set in c#
+
+  // common miscs:
   module: 'maroon',
-  declaration: 'blue',
-  string: 'yellow',
-  reserved: 'teal',
-  builtIn: 'teal',
-  inherited: 'oliver',
-  storage: 'teal',
-  number: 'orange',
   operator: 'orange',
   control: 'maroon',
+  number: 'orange',
   flow: 'black',
   constant: 'purple',
+
+  // uncommon miscs:
+  interpolation: 'rosy',
   regex: 'rosy',
-  keyword: 'blue',
-  curveball: 'russet',
   invalid: 'red',
   deprecated: 'pink',
-  docstring: 'russet',
-  interpolation: 'rosy',
+  docstring: 'copper',
+
   // html css ↓
   tag: 'blue',
   class: 'green',
   id: 'magenta',
   attribute: 'olive',
   reactComponent: 'cyan',
+  cssProperty: 'olive',
   atRule: 'maroon',
   cssVariable: 'rosy',
+
+  // json:
+  jsonKey: 'lime',
+  jsonString: 'yellow',
+
+  // php:
+  php: 'indigo',
 };
 
 // for node only ↓

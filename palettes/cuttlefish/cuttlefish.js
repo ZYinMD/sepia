@@ -15,12 +15,14 @@ cuttlefish.availableColors = [
   'copper',
   'rosy',
   'pink',
+  'magenta',
   'red',
   'orange',
   'gold',
   'cream',
   'yellow',
   'lime',
+  'aqua',
   'green',
   'jade',
   'jader',
@@ -28,7 +30,6 @@ cuttlefish.availableColors = [
   'cyan',
   'indigo',
   'violet',
-  'magenta',
 ];
 
 /**
@@ -39,43 +40,63 @@ cuttlefish.availableColors = [
 cuttlefish.aliases = {
   default: 'neutral',
   comment: 'translucent',
+  string: 'yellow',
+  declaration: 'blue',
+
+  // variables related:
   variable: 'jade',
   property: 'jade',
-  function: 'green',
-  assignment: 'jader',
-  call: 'lime',
-  parameter: 'cream',
   argument: 'jade',
+  assignment: 'jader',
+
+  // functions related:
+  function: 'cream',
+  call: 'lime',
+  parameter: 'green',
+  functionAndCall: 'lime', // in some languages like c#, function declaration and function call are the same scope
+
+  // keywords:
+  reserved: 'cream', // self, this, etc
+  storage: 'cyan', // static, public, private, etc
+  inherited: 'indigo', // inherited class
+  builtIn: 'gold', // built-in functions and methods, usually a call
+  curveball: 'gold', // scope "support.type", often miscellaneous legal stuff
+  otherKeywords: 'blue', // keywords scoped as "keyword.other.xxx", including things like get, set in c#
+
+  // common miscs:
   module: 'magenta',
-  declaration: 'blue',
-  string: 'yellow',
-  reserved: 'gold',
-  builtIn: 'cyan',
-  inherited: 'cyan',
-  storage: 'cyan',
-  number: 'orange',
   operator: 'magenta',
   control: 'magenta',
+  number: 'orange',
   flow: 'white',
   constant: 'violet',
+
+  // uncommon miscs:
+  interpolation: 'rosy',
   regex: 'rosy',
-  keyword: 'blue',
-  curveball: 'indigo',
   invalid: 'red',
   deprecated: 'pink',
   docstring: 'copper',
-  interpolation: 'gold',
-  // html & css ↓
+
+  // html & css:
   tag: 'blue',
   class: 'cream',
   id: 'rosy',
   attribute: 'jade',
   reactComponent: 'cyan',
-  atRule: 'lime',
-  cssVariable: 'gold',
+  cssProperty: 'lime',
+  atRule: 'magenta',
+  cssVariable: 'jader',
+
+  // json:
+  jsonKey: 'lime',
+  jsonString: 'yellow',
+
+  // php:
+  php: 'indigo',
 };
 
-// for node only ↓
+// for node only:
 if (typeof window === 'undefined') {
   module.exports = cuttlefish;
 }
