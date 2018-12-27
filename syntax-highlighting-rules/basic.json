@@ -122,7 +122,9 @@
 	{
 		"name": "var, const, let, int, bool, char, func, function, class, def",
 		"scope": [
-			"storage.type"
+			"storage.type",
+			"keyword.type",
+			"punctuation.definition.annotation" // saw it in java, there may be more
 		],
 		"settings": {
 			"foreground": "declaration"
@@ -197,12 +199,12 @@
 		}
 	},
 	{
-		"name": "other keyword", // examples: "px" in css
+		"name": "other keyword", // keyword.xxx, may be anything
 		"scope": [
 			"keyword"
 		],
 		"settings": {
-			"foreground": "keyword"
+			"foreground": "otherKeywords"
 		}
 	},
 	{
