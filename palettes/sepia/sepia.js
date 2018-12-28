@@ -49,10 +49,6 @@ sepia.aliases = {
   argument: 'olive',
   assignment: 'oliver',
 
-  /**
-   * oliver needs to be lighter, more close to olive, and pick a new color for inherited
-   */
-
   // functions related:
   function: 'green',
   call: 'cyan',
@@ -98,6 +94,16 @@ sepia.aliases = {
 
   // php:
   php: 'indigo',
+
+  // markdown:
+  mdHeading: 'green',
+  mdWord: 'russet',
+  mdOL: 'cyan',
+  mdUL: 'olive',
+  mdLink: 'blue',
+  mdCode: 'black',
+  mdQuote: 'teal',
+  mdSeparator: 'rosy',
 };
 
 // for node only ↓

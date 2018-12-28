@@ -94,6 +94,16 @@ cuttlefish.aliases = {
 
   // php:
   php: 'indigo',
+
+  // markdown:
+  mdHeading: 'cream',
+  mdWord: 'gold',
+  mdOL: 'jader',
+  mdUL: 'lime',
+  mdLink: 'blue',
+  mdCode: 'white',
+  mdQuote: 'cyan',
+  mdSeparator: 'rosy',
 };
 
 // for node only:
