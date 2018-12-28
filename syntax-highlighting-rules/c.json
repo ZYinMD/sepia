@@ -10,6 +10,16 @@
 		}
 	},
 	{
+		"name": "c: punctuation color reset",
+		"scope": [
+			"source.c punctuation",
+			"source.cpp punctuation"
+		],
+		"settings": {
+			"foreground": "default"
+		}
+	},
+	{
 		"name": "c: parameters",
 		"scope": [
 			"meta.function.c"

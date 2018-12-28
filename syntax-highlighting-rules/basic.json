@@ -3,8 +3,7 @@
 		"name": "default color",
 		"scope": [
 			"text",
-			"source",
-			"punctuation" // some languages's source color was manually set, so punctuation has to reset
+			"source"
 		],
 		"settings": {
 			"foreground": "default"

@@ -11,6 +11,15 @@
 		}
 	},
 	{
+		"name": "java: punctuation color reset",
+		"scope": [
+			"source.java punctuation"
+		],
+		"settings": {
+			"foreground": "default"
+		}
+	},
+	{
 		"name": "java: variable declaration",
 		"scope": [
 			"variable.other.definition.java"

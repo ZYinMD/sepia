@@ -9,6 +9,15 @@
 		}
 	},
 	{
+		"name": "python: punctuation color reset",
+		"scope": [
+			"source.python punctuation"
+		],
+		"settings": {
+			"foreground": "default"
+		}
+	},
+	{
 		"name": "python: arguments",
 		"scope": [
 			"meta.function-call.arguments"
