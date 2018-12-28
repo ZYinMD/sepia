@@ -286,8 +286,7 @@
 			"name": "default color",
 			"scope": [
 				"text",
-				"source",
-				"punctuation"
+				"source"
 			],
 			"settings": {
 				"foreground": "#8d796b"
@@ -599,6 +598,16 @@
 			}
 		},
 		{
+			"name": "c: punctuation color reset",
+			"scope": [
+				"source.c punctuation",
+				"source.cpp punctuation"
+			],
+			"settings": {
+				"foreground": "#8d796b"
+			}
+		},
+		{
 			"name": "c: parameters",
 			"scope": [
 				"meta.function.c"
@@ -726,6 +735,15 @@
 			}
 		},
 		{
+			"name": "go: punctuation color reset",
+			"scope": [
+				"source.go punctuation"
+			],
+			"settings": {
+				"foreground": "#8d796b"
+			}
+		},
+		{
 			"name": "go: variable assignment",
 			"scope": [
 				"variable.other.assignment.go"
@@ -831,6 +849,15 @@
 			}
 		},
 		{
+			"name": "java: punctuation color reset",
+			"scope": [
+				"source.java punctuation"
+			],
+			"settings": {
+				"foreground": "#8d796b"
+			}
+		},
+		{
 			"name": "java: variable declaration",
 			"scope": [
 				"variable.other.definition.java"
@@ -902,15 +929,86 @@
 			"scope": [
 				"source.lua"
 			],
-			"settings": {}
+			"settings": {
+				"foreground": ""
+			}
 		},
 		{
-			"name": "entity.name.section",
+			"name": "markdown: headings",
 			"scope": [
-				"entity.name.section"
+				"markup.heading"
 			],
 			"settings": {
+				"foreground": "#094e"
+			}
+		},
+		{
+			"name": "markdown: link",
+			"scope": "markup.underline.link.",
+			"settings": {
 				"foreground": "#08bd"
+			}
+		},
+		{
+			"name": "markdown: numbered list",
+			"scope": "markup.list.numbered",
+			"settings": {
+				"foreground": "#30a195"
+			}
+		},
+		{
+			"name": "markdown: unnumbered list",
+			"scope": "markup.list.unnumbered",
+			"settings": {
+				"foreground": "#8a9b00"
+			}
+		},
+		{
+			"name": "markdown: code",
+			"scope": [
+				"markup.fenced_code.block.markdown",
+				"markup.inline.raw.string.markdown"
+			],
+			"settings": {
+				"foreground": "#222"
+			}
+		},
+		{
+			"name": "markdown: blockquote",
+			"scope": "markup.quote.markdown",
+			"settings": {
+				"foreground": "#088"
+			}
+		},
+		{
+			"name": "markdown: separator",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#e44c"
+			}
+		},
+		{
+			"name": "markdown: italic",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#b40b"
+			}
+		},
+		{
+			"name": "markdown: bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#b40b"
+			}
+		},
+		{
+			"name": "markdown: bold italic",
+			"scope": "markup.bold markup.italic",
+			"settings": {
+				"fontStyle": "bold italic",
+				"foreground": "#b40b"
 			}
 		},
 		{
@@ -950,6 +1048,15 @@
 			],
 			"settings": {
 				"foreground": "#8a9b00"
+			}
+		},
+		{
+			"name": "python: punctuation color reset",
+			"scope": [
+				"source.python punctuation"
+			],
+			"settings": {
+				"foreground": "#8d796b"
 			}
 		},
 		{
