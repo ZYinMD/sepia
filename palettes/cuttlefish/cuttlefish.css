@@ -139,8 +139,8 @@ Now it seems that comments may only be put on the same line as a color value if 
 .cuttlefish .cyan {
   color: #31c4b2da;
   color: #74ccc2da;
-  color: #5bbc;
   color: #5bbb;
+  color: #5bbc;
 }
 
 .cuttlefish .indigo {

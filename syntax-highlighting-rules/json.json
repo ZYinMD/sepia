@@ -7,7 +7,7 @@
       "punctuation.support.type.property-name.end.json"
     ],
     "settings": {
-      "foreground": "jader"
+      "foreground": "jsonKey"
     }
   },
   {

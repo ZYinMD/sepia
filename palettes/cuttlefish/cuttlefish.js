@@ -90,7 +90,7 @@ cuttlefish.aliases = {
 
   // json:
   jsonKey: 'lime',
-  jsonString: 'yellow',
+  jsonString: 'cyan',
 
   // php:
   php: 'indigo',
