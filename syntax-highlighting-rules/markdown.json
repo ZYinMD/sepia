@@ -1,11 +1,80 @@
 [
 	{
-		"name": "entity.name.section", // markdown headings, like #, ##, ###
+		"name": "markdown: headings",
 		"scope": [
-			"entity.name.section"
+			"markup.heading"
 		],
 		"settings": {
-			"foreground": "tag"
+			"foreground": "mdHeading"
+		}
+	},
+	{
+		"name": "markdown: link",
+		"scope": "markup.underline.link.",
+		"settings": {
+			"foreground": "mdLink"
+		}
+	},
+	{
+		"name": "markdown: numbered list",
+		"scope": "markup.list.numbered",
+		"settings": {
+			"foreground": "mdOL"
+		}
+	},
+	{
+		"name": "markdown: unnumbered list",
+		"scope": "markup.list.unnumbered",
+		"settings": {
+			"foreground": "mdUL"
+		}
+	},
+	{
+		"name": "markdown: code",
+		"scope": [
+			"markup.fenced_code.block.markdown",
+			"markup.inline.raw.string.markdown"
+		],
+		"settings": {
+			"foreground": "mdCode"
+		}
+	},
+	{
+		"name": "markdown: blockquote",
+		"scope": "markup.quote.markdown",
+		"settings": {
+			"foreground": "mdQuote"
+		}
+	},
+	{
+		"name": "markdown: separator",
+		"scope": "meta.separator.markdown",
+		"settings": {
+			"foreground": "mdSeparator"
+		}
+	},
+	{
+		"name": "markdown: italic",
+		"scope": "markup.italic",
+		"settings": {
+			"fontStyle": "italic",
+			"foreground": "mdWord"
+		}
+	},
+	{
+		"name": "markdown: bold",
+		"scope": "markup.bold",
+		"settings": {
+			"fontStyle": "bold",
+			"foreground": "mdWord"
+		}
+	},
+	{
+		"name": "markdown: bold italic",
+		"scope": "markup.bold markup.italic",
+		"settings": {
+			"fontStyle": "bold italic",
+			"foreground": "mdWord"
 		}
 	}
 ]
