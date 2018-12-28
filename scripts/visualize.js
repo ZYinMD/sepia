@@ -28,8 +28,10 @@ try {
 const rules = require('./buildRules.js')();
 const palette = require('../palettes/_utils/lookup-css.js')(themeName);
 
-for (let i of rules)
-  i.settings.foreground = palette[i.settings.foreground];
+for (let i of rules) {
+  if (i.settings.foreground) // sometimes there's no foreground property, only italic or bold
+    i.settings.foreground = palette[i.settings.foreground];
+}
 
 // create keys in userSettings if not existed:
 userSettings['editor.tokenColorCustomizations'] = userSettings['editor.tokenColorCustomizations'] || {};
