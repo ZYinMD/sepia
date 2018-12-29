@@ -911,7 +911,9 @@
 				"punctuation.support.type.property-name.begin.json",
 				"punctuation.support.type.property-name.end.json"
 			],
-			"settings": {}
+			"settings": {
+				"foreground": "#8a9b00"
+			}
 		},
 		{
 			"name": "json: string value",

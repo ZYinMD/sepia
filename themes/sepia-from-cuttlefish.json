@@ -306,7 +306,7 @@
 				"entity.name"
 			],
 			"settings": {
-				"foreground": "#dd9e"
+				"foreground": "#3b0"
 			}
 		},
 		{
@@ -327,7 +327,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#8af"
+				"foreground": "#d88"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#dd9e"
+				"foreground": "#da7"
 			}
 		},
 		{
@@ -369,7 +369,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#da7"
+				"foreground": "#8dcd"
 			}
 		},
 		{
@@ -379,7 +379,7 @@
 				"entity.name.variable.parameter"
 			],
 			"settings": {
-				"foreground": "#3b0"
+				"foreground": "#dd9e"
 			}
 		},
 		{
@@ -388,7 +388,7 @@
 				"variable.function"
 			],
 			"settings": {
-				"foreground": "#da7"
+				"foreground": "#8dcd"
 			}
 		},
 		{
@@ -426,7 +426,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#5bbb"
+				"foreground": "#5bbc"
 			}
 		},
 		{
@@ -528,7 +528,7 @@
 				"punctuation.definition.variable.makefile"
 			],
 			"settings": {
-				"foreground": "#d88"
+				"foreground": "#e03a67dd"
 			}
 		},
 		{
@@ -621,7 +621,7 @@
 				"meta.function.c"
 			],
 			"settings": {
-				"foreground": "#3b0"
+				"foreground": "#dd9e"
 			}
 		},
 		{
@@ -795,7 +795,7 @@
 				"support.class.component.js"
 			],
 			"settings": {
-				"foreground": "#5bbb"
+				"foreground": "#5bbc"
 			}
 		},
 		{
@@ -920,7 +920,7 @@
 				"punctuation.support.type.property-name.end.json"
 			],
 			"settings": {
-				"foreground": "#0a7e"
+				"foreground": "#9c3d"
 			}
 		},
 		{
@@ -931,7 +931,7 @@
 				"punctuation.definition.string.end.json"
 			],
 			"settings": {
-				"foreground": "#ed0b"
+				"foreground": "#5bbc"
 			}
 		},
 		{
@@ -987,7 +987,7 @@
 			"name": "markdown: blockquote",
 			"scope": "markup.quote.markdown",
 			"settings": {
-				"foreground": "#5bbb"
+				"foreground": "#5bbc"
 			}
 		},
 		{
@@ -1036,7 +1036,7 @@
 				"variable.language punctuation.definition.variable.php"
 			],
 			"settings": {
-				"foreground": "#dd9e"
+				"foreground": "#da7"
 			}
 		},
 		{
@@ -1048,7 +1048,7 @@
 				"punctuation.section.embedded.end source.ruby"
 			],
 			"settings": {
-				"foreground": "#8af"
+				"foreground": "#6b9cd9f3"
 			}
 		},
 		{
