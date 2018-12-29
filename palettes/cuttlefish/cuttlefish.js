@@ -50,16 +50,16 @@ cuttlefish.aliases = {
   assignment: 'jader',
 
   // functions related:
-  function: 'cream',
+  function: 'green',
   call: 'lime',
-  parameter: 'green',
+  parameter: 'cream',
   functionAndCall: 'lime', // in some languages like c#, function declaration and function call are the same scope
 
   // keywords:
-  reserved: 'cream', // self, this, etc
+  reserved: 'gold', // self, this, etc
   storage: 'cyan', // static, public, private, etc
-  inherited: 'indigo', // inherited class
-  builtIn: 'gold', // built-in functions and methods, usually a call
+  inherited: 'rosy', // inherited class
+  builtIn: 'aqua', // built-in functions and methods, usually a call
   curveball: 'gold', // scope "support.type", often miscellaneous legal stuff
   otherKeywords: 'blue', // keywords scoped as "keyword.other.xxx", including things like get, set in c#
 
@@ -72,7 +72,7 @@ cuttlefish.aliases = {
   constant: 'violet',
 
   // uncommon miscs:
-  interpolation: 'rosy',
+  interpolation: 'magenta',
   regex: 'rosy',
   invalid: 'red',
   deprecated: 'pink',
