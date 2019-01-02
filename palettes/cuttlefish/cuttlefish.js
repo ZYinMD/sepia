@@ -96,7 +96,7 @@ cuttlefish.aliases = {
   php: 'indigo',
 
   // markdown:
-  mdHeading: 'cream',
+  mdHeading: 'green',
   mdWord: 'gold',
   mdOL: 'jader',
   mdUL: 'lime',

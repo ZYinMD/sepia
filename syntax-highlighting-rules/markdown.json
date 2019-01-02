@@ -2,7 +2,8 @@
 	{
 		"name": "markdown: headings",
 		"scope": [
-			"markup.heading"
+			"markup.heading",
+			"entity.name.section.markdown"
 		],
 		"settings": {
 			"foreground": "mdHeading"
