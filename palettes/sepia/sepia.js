@@ -1,8 +1,9 @@
-// ★ this file will be read both by node and by browser ★
+// ★ this file will be read both by node and by browser via palette.html
 const sepia = {};
 
 /**
- * all available colors of this theme
+ * available colors of this theme
+ *
  * open palette.html to see what they look like
  * to change the color values, edit the css
  * the classes in the css must match this array
@@ -33,7 +34,8 @@ sepia.availableColors = [
 
 /**
  * aliases to the colors
- * both the color names and the aliases will be recognized
+ *
+ * both color names and the aliases will work in the json files
  * aliases are strongly encouraged, as color names affect all other themes that you're not currently tweaking
  */
 sepia.aliases = {

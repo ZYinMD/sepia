@@ -1,12 +1,12 @@
-// ★ this file will be read both by node and by browser ★
+// ★ this file will be read both by node and by browser via palette.html
 
 const cuttlefish = {};
 
 /**
- * all available colors of this theme
- * open palette.html to see what they look like
- * to change the color values, edit the css
- * the classes in the css must match this array
+ * aliases to the colors
+ *
+ * both color names and the aliases will work in the json files
+ * aliases are strongly encouraged, as color names affect all other themes that you're not currently tweaking
  */
 cuttlefish.availableColors = [
   'white',
