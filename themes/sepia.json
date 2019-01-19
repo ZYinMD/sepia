@@ -92,6 +92,7 @@
 		"list.highlightForeground": "#b58900",
 		"list.hoverBackground": "#fdeecc",
 		"list.inactiveSelectionBackground": "#fdeecc",
+		"list.warningForeground": "#910096",
 		"menu.background": "#fdeecc",
 		"menu.foreground": "#666055",
 		"menu.selectionBackground": "#ded2b6",
@@ -219,7 +220,6 @@
 		//"list.errorForeground": "#b01011",
 		//"list.inactiveFocusBackground": "#d8dae6",
 		//"list.invalidItemForeground": "#b89500",
-		//"list.warningForeground": "#117711",
 		//"merge.commonContentBackground": "#60606029",
 		//"merge.commonHeaderBackground": "#60606066",
 		//"merge.currentContentBackground": "#00aaaa22",
@@ -319,7 +319,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#b40b"
+				"foreground": "#a40b"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#b40b"
+				"foreground": "#a40b"
 			}
 		},
 		{
@@ -927,18 +927,10 @@
 			}
 		},
 		{
-			"name": "lua: default",
-			"scope": [
-				"source.lua"
-			],
-			"settings": {
-				"foreground": ""
-			}
-		},
-		{
 			"name": "markdown: headings",
 			"scope": [
-				"markup.heading"
+				"markup.heading",
+				"entity.name.section.markdown"
 			],
 			"settings": {
 				"foreground": "#094e"
@@ -994,7 +986,7 @@
 			"scope": "markup.italic",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#b40b"
+				"foreground": "#a40b"
 			}
 		},
 		{
@@ -1002,7 +994,7 @@
 			"scope": "markup.bold",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#b40b"
+				"foreground": "#a40b"
 			}
 		},
 		{
@@ -1010,7 +1002,7 @@
 			"scope": "markup.bold markup.italic",
 			"settings": {
 				"fontStyle": "bold italic",
-				"foreground": "#b40b"
+				"foreground": "#a40b"
 			}
 		},
 		{
@@ -1086,7 +1078,7 @@
 				"string.quoted.docstring punctuation.definition.string"
 			],
 			"settings": {
-				"foreground": "#b40b"
+				"foreground": "#a40b"
 			}
 		},
 		{
