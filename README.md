@@ -1,4 +1,4 @@
-### 1 light theme + 1 dark theme. Not too bright, not too dark. Perfect for your eyes.
+## Contains 1 light theme + 1 dark theme. Not too bright, not too dark. Perfect for your eyes.
 
 ## Theme "Sepia":
 ![screenshot.sepia.png](images/screenshot.sepia.png)
