@@ -22,7 +22,6 @@ sepia.availableColors = [
   'rosy',
   'orange',
   'yellow',
-  'tan',
   'olive',
   'oliver',
   'green',
