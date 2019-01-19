@@ -5,7 +5,7 @@
     "version": "1.2.9",
     "publisher": "ZYinMD",
     "repository": "https://github.com/ZYinMD/sepia",
-    "icon": "icon.png",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.29.0"
     },
