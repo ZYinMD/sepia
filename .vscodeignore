@@ -1,6 +1,8 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+images/*.txt
+images/*.psd
 
 # things needed only when developing the theme:
 node_modules
