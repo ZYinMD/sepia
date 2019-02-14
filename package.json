@@ -1,46 +1,51 @@
 {
-    "name": "sepia",
-    "displayName": "Sepia Theme",
-    "description": "Your eyes will thank you",
-    "version": "1.2.13",
-    "publisher": "ZYinMD",
-    "repository": "https://github.com/ZYinMD/sepia",
-    "icon": "images/icon.png",
-    "engines": {
-        "vscode": "^1.29.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "parchment",
-        "vintage",
-        "solarized",
-        "yellow",
-        "brown"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Sepia",
-                "uiTheme": "vs",
-                "path": "./themes/sepia.json"
-            },
-            {
-                "label": "Sepia from Cuttlefish",
-                "uiTheme": "vs-dark",
-                "path": "./themes/sepia-from-cuttlefish.json"
-            }
-        ]
-    },
-    "scripts": {
-        "visualize": "node ./scripts/visualize.js",
-        "postvisualize": "printf 'For faster speed, you might want to run `node ./scripts/visualize.js` directly'",
-        "postversion": "auto-changelog -b 99 && git commit -a --amend --no-edit && git tag -f $(git describe --tags `git rev-list --tags --max-count=1`) HEAD"
-    },
-    "devDependencies": {
-        "auto-changelog": "^1.10.2",
-        "comment-json": "^1.1.3",
-        "cssjson": "^2.1.3"
-    }
+	"name": "sepia",
+	"displayName": "Sepia Theme",
+	"description": "Your eyes will thank you",
+	"version": "1.2.13",
+	"publisher": "ZYinMD",
+	"repository": "https://github.com/ZYinMD/sepia",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"parchment",
+		"vintage",
+		"solarized",
+		"yellow",
+		"brown"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Sepia",
+				"uiTheme": "vs",
+				"path": "./themes/sepia.json"
+			},
+			{
+				"label": "Sepia from Cuttlefish",
+				"uiTheme": "vs-dark",
+				"path": "./themes/sepia-from-cuttlefish.json"
+			}
+		]
+	},
+	"scripts": {
+		"visualize": "node ./scripts/visualize.js",
+		"postvisualize": "printf 'For faster speed, you might want to run `node ./scripts/visualize.js` directly'",
+		"postversion": "auto-changelog -b 99 && git commit -a --amend --no-edit && git tag -f $(git describe --tags `git rev-list --tags --max-count=1`) HEAD"
+	},
+	"devDependencies": {
+		"auto-changelog": "^1.10.2",
+		"comment-json": "^1.1.3",
+		"cssjson": "^2.1.3"
+	},
+	"__metadata": {
+		"id": "c54fb6cf-bc49-4e90-8a2b-f158b27c45ac",
+		"publisherDisplayName": "Zhi Yin",
+		"publisherId": "c8ed1e7f-4513-4c2d-b7c0-b83005a2a75d"
+	}
 }
