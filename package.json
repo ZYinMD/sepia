@@ -40,7 +40,6 @@
 		"postversion": "auto-changelog -b 99 && git commit -a --amend --no-edit && git tag -f $(git describe --tags `git rev-list --tags --max-count=1`) HEAD"
 	},
 	"devDependencies": {
-		"auto-changelog": "^1.10.2",
 		"comment-json": "^1.1.3",
 		"cssjson": "^2.1.3"
 	},
