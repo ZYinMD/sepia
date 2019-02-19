@@ -34,8 +34,9 @@
 		]
 	},
 	"scripts": {
-		"visualize": "node ./scripts/visualize.js",
-		"postvisualize": "printf 'For faster speed, you might want to run `node ./scripts/visualize.js` directly'",
+		"palettes": "start ./palettes/palettes.html || open ./palettes/palettes.html",
+		"implement": "node ./scripts/implement.js",
+		"postimplement": "printf 'For faster speed, you might want to run `node ./scripts/implement.js` directly'",
 		"postversion": "auto-changelog -b 99 && git commit -a --amend --no-edit && git tag -f $(git describe --tags `git rev-list --tags --max-count=1`) HEAD"
 	},
 	"devDependencies": {
