@@ -4,6 +4,19 @@ Do not put comments in this file, until more experiments to understand the behav
 Now it seems that comments may only be put on the same line as a color value if that line is the last of its curly braces. Comments on previous lines will render the lines below it useless
 */
 
+.sepia .silver {
+  color: #888d;
+  color: #aaac;
+  color: #999d;
+  color: #999c;
+  color: #999d;
+}
+
+.sepia .neutral {
+  color: #8b6d3ccc;
+  color: #776935cc;
+}
+
 .sepia .grey {
   color: #222b;
   color: #333b;
@@ -13,17 +26,6 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #3239;
   color: #2118;
   color: #8d796b;
-}
-
-.sepia .neutral {
-  color: #8b6d3ccc;
-}
-
-.sepia .silver {
-  color: #888d;
-  color: #aaac;
-  color: #999d;
-  color: #999c;
 }
 
 .sepia .black {
@@ -36,21 +38,25 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #fd45ad;
   color: #f7c;
   color: #f08c;
+  color: #f00d86cc;
 }
 
 .sepia .purple {
   color: #9932cc;
   color: #93bc;
   color: #909a;
+  color: #aa00aabb;
 }
 
 .sepia .magenta {
   color: #b36e;
   color: #bb3366d6;
   color: #b36d;
+  color: #b36e;
 }
 
 .sepia .maroon {
+  color: #c10d;
   color: #c10c;
 }
 
@@ -61,23 +67,27 @@ Now it seems that comments may only be put on the same line as a color value if 
 .sepia .russet {
   color: #d1681d;
   color: #c50e;
-  color: #c51d;
   color: #b40b;
+  color: #a40d;
+  color: #a40c;
   color: #a40b;
+  color: #b96900d7;
 }
 
 .sepia .rosy {
   color: #da2d2dbb;
-  color: #eb582cdd;
+  color: #ec582cdd;
   color: #e52d;
   color: #e44d;
   color: #e44c;
+  color: #e44d;
 }
 
 .sepia .orange {
   color: #f67a00;
   color: #f77b00;
   color: #f77b00e7;
+  color: #f57b00;
 }
 
 .sepia .yellow {
@@ -92,20 +102,24 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #b69235f5;
   color: #c2a03a;
   color: #b79533;
+  color: #a7882d;
 }
 
 .sepia .olive {
   color: #890;
   color: #8a9b00;
+  color: #879900;
 }
 
 .sepia .oliver {
   color: #780;
   color: #829300;
+  color: #839400;
 }
 
 .sepia .green {
   color: #094e;
+  color: #094;
 }
 
 .sepia .cyan {
@@ -113,17 +127,21 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #099e;
   color: #20a195;
   color: #30a195;
+  color: #009b98;
 }
 
 .sepia .blue {
   color: #07ac;
   color: #08ad;
+  color: #088dbdee;
   color: #08bd;
+  color: #038dbeee;
 }
 
 .sepia .indigo {
   color: #78b;
   color: #67a;
+  color: #67b;
 }
 
 .sepia .teal {
@@ -132,5 +150,6 @@ Now it seems that comments may only be put on the same line as a color value if 
 
 body.sepia {
   background-color: #fdeecc;
+  background-color: #ecdebc;
   color: black;
 }
