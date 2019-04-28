@@ -10,7 +10,7 @@ function buildRules() {
 		const rule = json.parse(fs.readFileSync(filePath, 'utf8'), null, true); // strip comments
 		accumulator = accumulator.concat(rule);
 		return accumulator;
-	}, [])
+	}, []);
 }
 
 module.exports = buildRules;

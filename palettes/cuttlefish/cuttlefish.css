@@ -11,15 +11,18 @@ Now it seems that comments may only be put on the same line as a color value if 
 
 .cuttlefish .neutral {
   color: #aab;
+  color: #bbb;
 }
 
 .cuttlefish .translucent {
   color: #9999;
   color: #899a;
+  color: #899b;
 }
 
 .cuttlefish .copper {
   color: #a88e;
+  color: #a88;
 }
 
 .cuttlefish .rosy {
@@ -27,6 +30,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #f07780;
   color: #e77;
   color: #d88;
+  color: #e99;
 }
 
 .cuttlefish .pink {
@@ -48,6 +52,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #e43a67dd;
   color: #e03a67dd;
   color: #e03a67e7;
+  color: #e03a67ec;
 }
 
 .cuttlefish .red {
@@ -61,6 +66,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #d92;
   color: #db9d00;
   color: #e4a300;
+
 }
 
 .cuttlefish .gold {
@@ -78,14 +84,15 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #dd8e;
   color: #ee9d;
   color: #dd9e;
+  color: #ed8e;
 }
 
 .cuttlefish .yellow {
   color: #ee0;
   color: #ee0b;
-  color: #dd0c;
   color: #dd0b;
   color: #ed0b;
+  color: #dd0c;
 }
 
 .cuttlefish .lime {
@@ -93,13 +100,15 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #9c3e;
   color: #8c3d;
   color: #8c3e;
-  color: #9c3d;
+  color: #9c3e;
+  color: #9c3f;
 }
 
 .cuttlefish .aqua {
   color: #68d492d3;
   color: #86dbc9e0;
   color: #8dcd;
+  color: #8dce;
 }
 
 .cuttlefish .green {
@@ -107,7 +116,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #aabc8fee;
   color: #aabc8fee;
   color: #5b0e;
-  color: #3b0;
+  color: #3c0;
 }
 
 .cuttlefish .jade {
@@ -124,6 +133,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #0a7d;
   color: #00aa7ddd;
   color: #3ea67fd8;
+  color: #3ea67ce7;
 }
 
 .cuttlefish .jader {
@@ -139,6 +149,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #1bde;
   color: #5ded;
   color: #5ced;
+  color: #5cee;
 }
 
 .cuttlefish .cyan {
@@ -146,6 +157,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #74ccc2da;
   color: #5bbb;
   color: #5bbc;
+  color: #5bbd;
 }
 
 .cuttlefish .indigo {
@@ -154,7 +166,7 @@ Now it seems that comments may only be put on the same line as a color value if 
   color: #79f;
   color: #8af;
   color: #7af;
-  color: #6b9cd9f3;
+  color: #7090e0;
 }
 
 .cuttlefish .violet {
