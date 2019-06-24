@@ -73,6 +73,15 @@
 		}
 	},
 	{
+		"name": "SCSS: ()[]{} (seen in functions inside styled-components in react",
+		"scope": [
+			"variable.interpolation.scss"
+		],
+		"settings": {
+			"foreground": "default"
+		}
+	},
+	{
 		"name": "color names in English",
 		"scope": [
 			"support.constant.color.w3c-standard-color-name.css",

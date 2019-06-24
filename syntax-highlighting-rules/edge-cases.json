@@ -10,8 +10,11 @@
 			"meta.scope.for-loop.shell string",
 			"punctuation.separator.list.comma.css",
 			"constant.language.empty-list.haskell",
-			// {} symbols insdei jsx:
-			"punctuation.section.embedded"
+			// {} symbols inside jsx:
+			"punctuation.section.embedded",
+			// {} and ; inside functions inside styled components
+			"punctuation.definition.block",
+			"punctuation.terminator"
 		],
 		"settings": {
 			"foreground": "default"

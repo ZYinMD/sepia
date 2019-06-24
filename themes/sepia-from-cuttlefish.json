@@ -148,9 +148,9 @@
 		"sideBarSectionHeader.foreground": "#fffdee",
 		"sideBarTitle.foreground": "#93a1a1",
 		"statusBar.background": "#10454a",
-		"statusBar.debuggingBackground": "#380e00",
-		"statusBar.debuggingForeground": "#66bb88",
-		"statusBar.foreground": "#e0dab9",
+		"statusBar.debuggingBackground": "#d3bb88",
+		"statusBar.debuggingForeground": "#000000",
+		"statusBar.foreground": "#dbd3a2",
 		"statusBar.noFolderBackground": "#10454a",
 		"statusBar.noFolderForeground": "#e0dab9",
 		"statusBarItem.activeBackground": "#128383",
@@ -264,9 +264,10 @@
 		//"settings.textInputBackground": "#0f545e",
 		//"settings.textInputBorder": "#4e9692a0",
 		//"settings.textInputForeground": "#f3e2b6",
-		//"statusBarItem.prominentForeground": "#e0dab9",
+		//"statusBarItem.prominentForeground": "#dbd3a2",
 		//"statusBarItem.remoteBackground": "#589298",
 		//"statusBarItem.remoteForeground": "#ffffff",
+		//"tab.unfocusedActiveBackground": "#003740",
 		//"tab.unfocusedActiveForeground": "#fff5e180",
 		//"tab.unfocusedActiveModifiedBorder": "#00aaaa80",
 		//"tab.unfocusedInactiveForeground": "#66666680",
@@ -700,6 +701,15 @@
 			}
 		},
 		{
+			"name": "SCSS: ()[]{} (seen in functions inside styled-components in react",
+			"scope": [
+				"variable.interpolation.scss"
+			],
+			"settings": {
+				"foreground": "#bbb"
+			}
+		},
+		{
 			"name": "color names in English",
 			"scope": [
 				"support.constant.color.w3c-standard-color-name.css",
@@ -720,7 +730,9 @@
 				"meta.scope.for-loop.shell string",
 				"punctuation.separator.list.comma.css",
 				"constant.language.empty-list.haskell",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded",
+				"punctuation.definition.block",
+				"punctuation.terminator"
 			],
 			"settings": {
 				"foreground": "#bbb"
