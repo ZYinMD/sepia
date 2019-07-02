@@ -291,7 +291,7 @@
 				"source"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -606,7 +606,7 @@
 				"source.cpp punctuation"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -706,7 +706,7 @@
 				"variable.interpolation.scss"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -716,7 +716,7 @@
 				"support.constant.color.w3c-extended-color-name"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -735,7 +735,7 @@
 				"punctuation.terminator"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -753,7 +753,7 @@
 				"source.go punctuation"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -840,7 +840,7 @@
 				"meta.tag.attributes.js keyword.operator.assignment.js"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 				"source.java punctuation"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{
@@ -1063,7 +1063,7 @@
 				"source.python punctuation"
 			],
 			"settings": {
-				"foreground": "#bbb"
+				"foreground": "#b0b0b0"
 			}
 		},
 		{

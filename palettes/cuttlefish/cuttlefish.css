@@ -12,6 +12,7 @@ Now it seems that comments may only be put on the same line as a color value if 
 .cuttlefish .neutral {
   color: #aab;
   color: #bbb;
+  color: #b0b0b0;
 }
 
 .cuttlefish .translucent {
