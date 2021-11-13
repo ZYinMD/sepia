@@ -88,7 +88,7 @@
     "inputValidation.errorBackground": "#ffffff",
     "inputValidation.errorBorder": "#fc5050",
     "inputValidation.errorForeground": "#fc5050",
-    "list.activeSelectionBackground": "#f1e2c0",
+    "list.activeSelectionBackground": "#d4c8ac",
     "list.activeSelectionForeground": "#555555",
     "list.dropBackground": "#92d68762",
     "list.focusBackground": "#d4c8ac",
